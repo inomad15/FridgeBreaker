@@ -17,13 +17,9 @@ export const INGREDIENTS: Ingredient[] = [
   { id: 'spinach', name: '시금치', category: 'veggie', emoji: '🌿' },
   { id: 'cabbage', name: '양배추', category: 'veggie', emoji: '🥬' },
   { id: 'strawberry', name: '딸기', category: 'veggie', emoji: '🍓', isPopular: true },
-  { id: 'dandelion', name: '민들레', category: 'veggie', emoji: '🌿' },
-  { id: 'yam', name: '산마(마)', category: 'veggie', emoji: '🥔' },
   { id: 'lettuce', name: '양상추', category: 'veggie', emoji: '🥬' },
   { id: 'broccoli', name: '브로콜리', category: 'veggie', emoji: '🥦' },
-  { id: 'cauliflower', name: '컬리플라워', category: 'veggie', emoji: '🥦' },
-  { id: 'kidney_bean', name: '강낭콩', category: 'veggie', emoji: '🫘' },
-  { id: 'congbiji', name: '콩비지', category: 'veggie', emoji: '🥣' },
+
 
   // Meat
   { id: 'pork_belly', name: '돼지고기(삼겹살)', category: 'meat', emoji: '🥓' },
@@ -321,58 +317,7 @@ export const RECIPES: Recipe[] = [
     fat: 5,
     protein: 3,
   },
-  {
-    id: 'dandelion_salad',
-    title: '쌉싸름한 민들레 샐러드',
-    description: '쌉싸름한 **민들레**의 향이 입맛을 돋우는 건강 샐러드.',
-    cookingTimeMinutes: 15,
-    difficulty: 'Easy',
-    imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMDA0MDhfMTQ2/MDAxNTg2MzI4MzQ5MjQ2.7hJ7w2Xp6u1n7w2Xp6u1n7w2Xp6u1n7w2Xp6u1n.JPEG.jyh1234/1586328348256.jpg?type=w800', // Placeholder realistic URL or generic
-    ingredients: [
-      { id: 'dandelion', amount: '한줌', required: true },
-      { id: 'onion', amount: '1/4개', required: false },
-      { id: 'soy_sauce', amount: '2T', required: true },
-      { id: 'sesame_oil', amount: '1T', required: true },
-      { id: 'gochugaru', amount: '1T', required: true },
-      { id: 'sugar', amount: '1T', required: true },
-    ],
-    instructions: [
-      '민들레는 깨끗이 씻어 물기를 제거합니다.',
-      '양념장(간장, 고춧가루, 설탕, 참기름)을 만듭니다.',
-      '볼에 민들레를 넣고 양념장에 살살 버무립니다.',
-    ],
-    calories: 90,
-    servingSize: 2,
-    carbohydrates: 10,
-    fat: 5,
-    protein: 2,
-  },
-  {
-    id: 'grilled_yam_salad',
-    title: '겨자소스로 구운 산마샐러드',
-    description: '아삭한 **산마** 구이에 톡 쏘는 **겨자** 소스를 곁들인 별미.',
-    cookingTimeMinutes: 20,
-    difficulty: 'Medium',
-    imageUrl: 'https://recipe1.ezmember.co.kr/cache/recipe/2019/06/05/5c8c5c8c5c8c5c8c5c8c5c8c5c8c5c8c5c8c5c8_1.jpg', // Placeholder
-    ingredients: [
-      { id: 'yam', amount: '1개', required: true },
-      { id: 'mustard', amount: '1T', required: true },
-      { id: 'soy_sauce', amount: '1T', required: true },
-      { id: 'sugar', amount: '1T', required: true },
-      { id: 'sesame_oil', amount: '0.5T', required: true },
-    ],
-    instructions: [
-      '산마는 껍질을 벗겨 0.5cm 두께로 썹니다.',
-      '팬에 기름을 두르고 산마를 노릇하게 굽습니다.',
-      '겨자, 간장, 설탕, 참기름을 섞어 소스를 만듭니다.',
-      '구운 마 위에 어린잎 채소(옵션)와 함께 소스를 뿌려 냅니다.',
-    ],
-    calories: 180,
-    servingSize: 2,
-    carbohydrates: 35,
-    fat: 4,
-    protein: 3,
-  },
+
   {
     id: 'flatfish_steak',
     title: '부드러운 광어 스테이크',
