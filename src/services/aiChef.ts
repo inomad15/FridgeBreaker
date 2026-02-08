@@ -1,0 +1,93 @@
+
+/// <reference types="vite/client" />
+import { GoogleGenerativeAI } from '@google/generative-ai';
+import { Recipe } from '../types';
+
+// Access API Key from environment variables (Vite uses import.meta.env)
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || '';
+
+// System prompt to guide the AI
+const SYSTEM_PROMPT = `
+You are a professional Korean chef (한식 셰프). 
+Your goal is to create a delicious recipe based on the user's available ingredients.
+The user is doing "Fridge Breaking" (냉장고 파먹기), so try to use the provided ingredients as much as possible, 
+but you can assume basic seasoning (soy sauce, sugar, salt, garlic, etc.) is available.
+
+Output the recipe STRICTLY in the following JSON format. Do not include markdown formatting like \`\`\`json.
+{
+  "id": "generated_recipe_timestamp",
+  "title": "Recipe Title (Korean)",
+  "description": "Short, appetizing description (Korean)",
+  "cookingTimeMinutes": number,
+  "difficulty": "Easy" | "Medium" | "Hard",
+  "calories": number (approximate),
+  "servingSize": number (e.g. 2),
+  "imageUrl": "/chef_hat.png", 
+  "ingredients": [
+    { "id": "ingredient_id_if_known_or_name", "amount": "quantity", "required": true }
+  ],
+  "instructions": [
+    "Step 1...",
+    "Step 2..."
+  ]
+}
+
+If the user provides weird combination, try your best to make something edible or fusion.
+`;
+
+export async function generateRecipe(ingredients: string[]): Promise<Recipe | null> {
+    // --- MOCK MODE (If no API Key provided) ---
+    if (!API_KEY) {
+        console.warn("No Gemini API Key found. Returning mock response.");
+        return new Promise((resolve) => {
+            setTimeout(() => {
+                resolve({
+                    id: `ai_${Date.now()}`,
+                    title: `[AI] ${ingredients[0]} 스페셜 요리`,
+                    description: "AI 셰프가 당신의 냉장고 재료로 즉석에서 만든 특별한 레시피입니다.",
+                    cookingTimeMinutes: 20,
+                    difficulty: 'Easy',
+                    imageUrl: '/pork_kimchi_stew.png', // Fallback image
+                    ingredients: ingredients.map(ing => ({ id: ing, amount: '적당량', required: true })),
+                    instructions: [
+                        `${ingredients.join(', ')}을(를) 먹기 좋게 손질합니다.`,
+                        "달궈진 팬에 기름을 두르고 재료를 볶습니다.",
+                        "간장과 설탕으로 간을 맞추고 푹 익힙니다.",
+                        "맛있게 드세요!"
+                    ],
+                    calories: 500,
+                    servingSize: 1
+                });
+            }, 2000); // Simulate network delay
+        });
+    }
+
+    // --- REAL AI GENERATION ---
+    try {
+        const genAI = new GoogleGenerativeAI(API_KEY);
+        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
+        const prompt = `${SYSTEM_PROMPT}\n\nUser ingredients: ${ingredients.join(', ')}`;
+
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        const text = response.text();
+
+        console.log("AI Raw Response:", text);
+
+        // Clean up markdown code blocks if present
+        const cleanText = text.replace(/```json/g, '').replace(/```/g, '').trim();
+
+        const recipeData = JSON.parse(cleanText);
+
+        // Ensure ID is unique
+        recipeData.id = `ai_${Date.now()}`;
+
+        return recipeData as Recipe;
+
+    } catch (error) {
+        console.error("AI Generation Failed:", error);
+        alert("레시피 생성에 실패했습니다. API 키를 확인하거나 나중에 다시 시도해주세요.");
+        return null;
+    }
+}
