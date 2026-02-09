@@ -460,8 +460,8 @@ export default function Home() {
                         <div className="bg-orange-600 p-2 rounded-lg">
                             <ChefHat className="w-6 h-6 text-white" />
                         </div>
-                        <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
-                            냉장고 털기
+                        <h1 className="text-xl md:text-2xl font-bold text-slate-900">
+                            <span className="text-orange-600">냉</span>장고 <span className="text-orange-600">털</span>기
                         </h1>
                     </div>
                     <div className="flex items-center gap-4">
