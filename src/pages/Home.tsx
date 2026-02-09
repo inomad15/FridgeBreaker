@@ -454,7 +454,25 @@ export default function Home() {
 
     return (
         <div className="min-h-screen flex flex-col pb-20 md:pb-0">
-            {/* ... Header ... */}
+            <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+                <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-16 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                        <div className="bg-orange-600 p-2 rounded-lg">
+                            <ChefHat className="w-6 h-6 text-white" />
+                        </div>
+                        <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
+                            냉장고 털기
+                        </h1>
+                    </div>
+                    <div className="flex items-center gap-4">
+                        <button className="p-2 hover:bg-slate-100 rounded-full transition-colors relative">
+                            <div className="w-2 h-2 bg-red-500 rounded-full absolute top-2 right-2 ring-2 ring-white"></div>
+                            <span className="sr-only">알림</span>
+                            <div className="w-6 h-6 rounded-full bg-slate-200" />
+                        </button>
+                    </div>
+                </div>
+            </header>
 
             <main className="flex-1 max-w-7xl mx-auto w-full p-4 md:p-6 lg:p-8 flex flex-col md:flex-row gap-8">
                 {/* Left Column: Ingredient Selection */}
