@@ -176,7 +176,7 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ result, allIngredients }) => {
 
     return (
         <div className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
-            <div className="relative h-48 overflow-hidden cursor-pointer" onClick={() => navigate(`/recipe/${recipe.id}`)}>
+            <div className="relative h-48 overflow-hidden cursor-pointer" onClick={() => navigate(`/recipe/${recipe.id}`, { state: { recipe } })}>
                 <img src={recipe.imageUrl} alt={recipe.title} className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500" />
                 <div className="absolute top-3 right-3">
                     <span className={`px-3 py-1 rounded-full text-xs font-extrabold border shadow-sm ${matchColor}`}>
@@ -193,7 +193,7 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ result, allIngredients }) => {
             </div>
 
             <div className="p-5 flex-1 flex flex-col">
-                <h3 className="text-lg font-bold text-slate-800 mb-1 cursor-pointer hover:text-orange-600 transition-colors" onClick={() => navigate(`/recipe/${recipe.id}`)}>{recipe.title}</h3>
+                <h3 className="text-lg font-bold text-slate-800 mb-1 cursor-pointer hover:text-orange-600 transition-colors" onClick={() => navigate(`/recipe/${recipe.id}`, { state: { recipe } })}>{recipe.title}</h3>
                 <p className="text-sm text-slate-500 line-clamp-2 mb-4">{recipe.description}</p>
 
                 <div className="mt-auto">
@@ -223,7 +223,7 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ result, allIngredients }) => {
                     )}
 
                     <button
-                        onClick={() => navigate(`/recipe/${recipe.id}`)}
+                        onClick={() => navigate(`/recipe/${recipe.id}`, { state: { recipe } })}
                         className="w-full mt-4 bg-slate-900 text-white py-2.5 rounded-lg text-sm font-semibold hover:bg-slate-800 transition-colors flex items-center justify-center group"
                     >
                         레시피 보기

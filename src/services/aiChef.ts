@@ -65,7 +65,7 @@ export async function generateRecipe(ingredients: string[]): Promise<Recipe | nu
     // --- REAL AI GENERATION ---
     try {
         const genAI = new GoogleGenerativeAI(API_KEY);
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+        const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
 
         const prompt = `${SYSTEM_PROMPT}\n\nUser ingredients: ${ingredients.join(', ')}`;
 
@@ -85,9 +85,9 @@ export async function generateRecipe(ingredients: string[]): Promise<Recipe | nu
 
         return recipeData as Recipe;
 
-    } catch (error) {
+    } catch (error: any) {
         console.error("AI Generation Failed:", error);
-        alert("레시피 생성에 실패했습니다. API 키를 확인하거나 나중에 다시 시도해주세요.");
+        alert(`오류가 발생했습니다: ${error.message || JSON.stringify(error)}`);
         return null;
     }
 }

@@ -1,14 +1,18 @@
 import React, { useMemo } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { ArrowLeft, Clock, ChefHat, ShoppingCart, Check } from 'lucide-react';
 import { RECIPES, INGREDIENTS } from '../constants';
-import { Ingredient } from '../types';
+import { Ingredient, Recipe } from '../types';
 
 export default function RecipeDetail() {
     const { id } = useParams<{ id: string }>();
     const navigate = useNavigate();
 
-    const recipe = RECIPES.find(r => r.id === id);
+    const location = useLocation();
+
+    // Check if recipe was passed via navigation state (for AI recipes)
+    const recipeFromState = location.state?.recipe as Recipe | undefined;
+    const recipe = recipeFromState || RECIPES.find(r => r.id === id);
 
     const ingredientMap = useMemo(() => {
         const map = new Map<string, Ingredient>();
