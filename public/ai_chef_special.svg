@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="silverGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d7d7d7;stop-opacity:1" />
+      <stop offset="15%" style="stop-color:#f7f7f7;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#a0a0a0;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#d7d7d7;stop-opacity:1" />
+      <stop offset="85%" style="stop-color:#f7f7f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0a0a0;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="knobGradient" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#707070;stop-opacity:1" />
+    </radialGradient>
+    <filter id="dropshadow" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5"/> 
+      <feOffset dx="0" dy="5" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/> 
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background (Optional, can be transparent or subtle) -->
+  <rect width="500" height="500" fill="#f8fafc" />
+  
+  <!-- Plate -->
+  <ellipse cx="250" cy="400" rx="200" ry="40" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" filter="url(#dropshadow)"/>
+  <ellipse cx="250" cy="405" rx="140" ry="25" fill="#f1f5f9" />
+
+  <!-- Cloche Dome -->
+  <path d="M 100 380 Q 100 150 250 150 Q 400 150 400 380 Z" fill="url(#silverGradient)" stroke="#94a3b8" stroke-width="1" filter="url(#dropshadow)"/>
+  
+  <!-- Reflection/Highlight -->
+  <path d="M 130 360 Q 140 200 220 180" fill="none" stroke="white" stroke-width="5" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- Handle/Knob -->
+  <circle cx="250" cy="150" r="25" fill="url(#knobGradient)" stroke="#94a3b8" stroke-width="1"/>
+  <circle cx="250" cy="130" r="8" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+
+  <!-- Text (Optional) -->
+  <text x="50%" y="460" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#64748b" font-weight="bold" letter-spacing="2">AI CHEF'S SPECIAL</text>
+</svg>

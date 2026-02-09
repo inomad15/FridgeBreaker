@@ -1,0 +1,4118 @@
+[
+  {
+    "id": "api_28",
+    "title": "새우 두부 계란찜",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00028_2.png",
+    "ingredients": [
+      {
+        "id": "tofu",
+        "amount": "75g(3/4모",
+        "required": true
+      },
+      {
+        "id": "shrimp",
+        "amount": "20g(5마리",
+        "required": true
+      },
+      {
+        "id": "egg",
+        "amount": "30g(1/2개",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "5g(1작은술",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "손질된 새우를 끓는 물에 데쳐 건진다.a",
+      "연두부, 달걀, 생크림, 설탕에 녹인 무염버터를 믹서에 넣고 간 뒤 새우(1)를 함께 섞어 그릇에 담는다.b",
+      "시금치를 잘게 다져 혼합물 그릇(2)에 뿌리고 찜기에 넣고 중간 불에서 10분 정도 찐다.c"
+    ],
+    "calories": 220,
+    "servingSize": 1
+  },
+  {
+    "id": "api_29",
+    "title": "부추 콩가루 찜",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00029_2.png",
+    "ingredients": [
+      {
+        "id": "green_onion",
+        "amount": "5g(1작은술",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "2g(1/2쪽",
+        "required": true
+      },
+      {
+        "id": "gochugaru",
+        "amount": "2g(1/3작은술",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "2g(1/3작은술",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "부추는 깨끗이 씻어 물기를 제거하고, 5cm 길이로 썰고 부추에 날콩가루를 넣고 고루 섞이도록 버무린다.",
+      "찜기에 면보를 깔고 부추를 넣은 후 김이 오르게 쪄서 파랗게 익힌다.",
+      "저염간장에 다진 대파, 다진 마늘, 고춧가루, 요리당 , 참기름, 참깨를 섞어 양념장을 만들고 찐 부추는 그릇에 담아낸다."
+    ],
+    "calories": 215,
+    "servingSize": 1
+  },
+  {
+    "id": "api_31",
+    "title": "방울토마토 소박이",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00031_2.png",
+    "ingredients": [
+      {
+        "id": "onion",
+        "amount": "10g(3×1cm",
+        "required": true
+      },
+      {
+        "id": "anchovy",
+        "amount": "3g(2/3작은술",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "2.5g(1/2쪽",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "2g(1/3작은술",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "물기를 빼고 2cm 정도의 크기로 썰은 부추와 양파를 양념장에 섞어 양념속을 만든다.",
+      "깨끗이 씻은 방울토마토는 꼭지를 떼고 윗부분에 칼로 십자모양으로 칼집을 낸다.",
+      "칼집을 낸 방울토마토에 양념속을 사이사이에 넣어 버무린다."
+    ],
+    "calories": 45,
+    "servingSize": 1
+  },
+  {
+    "id": "api_32",
+    "title": "순두부 사과 소스 오이무침",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00032_2.png",
+    "ingredients": [
+      {
+        "id": "radish",
+        "amount": "70g(1/3개",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "적당량",
+        "required": true
+      },
+      {
+        "id": "cucumber",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "사과, 순두부를 믹서에 넣고 곱게 갈아 소스를 만든다.",
+      "오이는 소금으로 문질러 씻어 반을 갈라 씨를 제거하고 어슷썰기를 한다.",
+      "썰어 놓은 오이에 순두부사과 소스를 넣고 버무린 후 다진 땅콩을 뿌려 마무리 한다."
+    ],
+    "calories": 75,
+    "servingSize": 1
+  },
+  {
+    "id": "api_33",
+    "title": "사과 새우 북엇국",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00033_2.png",
+    "ingredients": [
+      {
+        "id": "shrimp",
+        "amount": "10g(3마리",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "40g(1/4개",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "20g(2장",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "북어채를 잘게 손으로 찢어 찬물에 헹구어 준비한 후 양파, 표고버섯, 사과는 채 썰고 새우는 등쪽의 두세 마디에 꼬챙이를 넣어 내장을 뺀 후 헹군다.",
+      "찬물에 북어채, 새우, 표고버섯, 양파를 넣고 20분 정도 끓인 후 사과를 넣어 북어의 씁쓸한 맛을 없앤다.",
+      "그릇에 담아낸다."
+    ],
+    "calories": 65,
+    "servingSize": 1
+  },
+  {
+    "id": "api_36",
+    "title": "저염 된장으로 맛을 낸 황태해장국",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00036_2.png",
+    "ingredients": [
+      {
+        "id": "bean_sprout",
+        "amount": "30g(1/6봉지",
+        "required": true
+      },
+      {
+        "id": "radish",
+        "amount": "30g(5×3×2cm",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "2g(1/3작은술",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "황태는 손질하여 물에 헹궈 건져 놓고 콩나물은 다듬어 씻고 청양고추는 어슷썰기 한다.",
+      "냄비에 물을 붓고 황태와 무를 넣고 끓인 후 육수에서 물을 건져내고 저염 된장을 푼다.",
+      "콩나물, 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 김이 나게 끓\n여준다."
+    ],
+    "calories": 100,
+    "servingSize": 1
+  },
+  {
+    "id": "api_37",
+    "title": "된장국",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00037_2.png",
+    "ingredients": [
+      {
+        "id": "tofu",
+        "amount": "20g(2×2×2cm",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "20g(4가닥",
+        "required": true
+      },
+      {
+        "id": "potato",
+        "amount": "10g(4×3×1cm",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "10g(2×1cm",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "10g(5cm",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "감자, 양파는 얇게 썰고 애느타리 버섯은 썰어 달궈진 팬에 굽는다.",
+      "냄비에 물을 붓고 된장을 푼 뒤 감자, 양파, 두부를 넣어 재료가 투명해지게 끓인 후 된장국의 재료를 건져서 믹서에 넣어 갈고 된장국에 넣어 한번 더 끓인다.",
+      "구운 애느타리버섯과 대파를 국에 넣어 끓인 후 그릇에 담는다."
+    ],
+    "calories": 20,
+    "servingSize": 1
+  },
+  {
+    "id": "api_38",
+    "title": "표고버섯 청경채국",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00038_2.png",
+    "ingredients": [
+      {
+        "id": "anchovy",
+        "amount": "5g(3마리",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "10g(2×1cm",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "적당량",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "5g(1작은술",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "20g(2장",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "2g(1/3작은술",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "찬물에 표고버섯,머리와 내장을 제거한 멸치,\n다시마, 양파를 넣어 중간 불에서 10분 정도\n끓여 멸치육수를 만든다.",
+      "육수의 표고버섯 기둥, 멸치, 다시마, 양파를 건진 후 표고버섯은 편으로 썰고 청경채는 4cm 크기로 썬다.",
+      "끓는 육수에 준비한 표고버섯과 청경채를 넣고 국간장으로 간을 한 후 마늘을 넣어 한소끔 끓인다."
+    ],
+    "calories": 45,
+    "servingSize": 1
+  },
+  {
+    "id": "api_95",
+    "title": "치커리샐러드와 올리브 마늘 소스",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00095_2.png",
+    "ingredients": [
+      {
+        "id": "cabbage",
+        "amount": "15g(5×3cm",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "10g(2×1cm",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "5g(1작은술",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "5g(1쪽",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "올리브유, 식초, 설탕, 다진 마늘을 섞어 거품기로 충분히 저어주어 올리브마늘 드레싱을 만든다.",
+      "치커리는 싱싱하게 찬물에 담갔다가 물기를 뺀 후 한입 크기로 자르고, 적양배추, 양파, 당근은 곱게채를 썬다.",
+      "접시에 준비한 치커리, 적양배추, 양파, 당근을 담고 올리브마늘 드레싱을 뿌린다."
+    ],
+    "calories": 170,
+    "servingSize": 1
+  },
+  {
+    "id": "api_89",
+    "title": "시금치 우유 소스와 그린매쉬드포테이토",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00089_2.png",
+    "ingredients": [
+      {
+        "id": "potato",
+        "amount": "80g(1/2개",
+        "required": true
+      },
+      {
+        "id": "spinach",
+        "amount": "5g(1작은술",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "2g(1/3작은술",
+        "required": true
+      },
+      {
+        "id": "spinach",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "milk",
+        "amount": "10g(2작은술",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "시금치는 끓는 소금물에 데쳐 찬물에 헹구어 물기를 짜고 우유를 넣고 블렌더에 곱게 갈아 체에 거른다.",
+      "껍질 벗긴 감자는 찜기에 넣어 20분 정도 삶고 꺼내서 으깨고, 아몬드는 잘게 다지며, 치커리는 곱게 다진다.",
+      "으깬 감자, 다진 치커리, 시금치 우유소스, 설탕을 넣고 섞어 접시에 담고 아몬드, 크랜베리를 올리고 시금치우유 소스를 곁들인다."
+    ],
+    "calories": 155,
+    "servingSize": 1
+  },
+  {
+    "id": "api_91",
+    "title": "버섯구이와 두부타르타르 소스",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00091_2.png",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "70g(7개",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "10g(2작은술",
+        "required": true
+      },
+      {
+        "id": "cucumber",
+        "amount": "10g(2작은술",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "적당량",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "곱게 다진 양파와 오이피클은 물기를 짠다.",
+      "연두부에 다진 양파, 다진 오이피클, 올리브유, 머스터드, 후추, 꿀, 식초, 레몬즙을 넣어 두부타르타르 소스를 만든다.",
+      "새송이버섯은 0.5cm 두께로 썰고 프라이팬에 노릇하게 구워준 후 접시에 새송이버섯과 치커리를 담고 소스를 곁들인다."
+    ],
+    "calories": 150,
+    "servingSize": 1
+  },
+  {
+    "id": "api_93",
+    "title": "구운채소와 간장레몬 소스",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00093_2.png",
+    "ingredients": [
+      {
+        "id": "zucchini",
+        "amount": "50g(1/3개",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "15g(3개",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "15g(1/8개",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "3g(3×1cm",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "3g(3×1cm",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "5g(1작은술",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "10g(1큰술",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "저염간장, 식초, 레몬즙, 설탕을 혼합하여 간장레몬 소스를 만든다.",
+      "호박, 가지, 새송이버섯은 3cm 길이로 자른 후 얇은 편으로 채 썰고, 양파, 파프리카, 피망은 호박 길이로 썬다.",
+      "가지, 호박, 새송이버섯, 양파, 파프리카, 피망에 올리브유를 바르고 달궈진 그릴 팬에 구운 후 접시에 담고 발사믹 크레타를 뿌리고 간장레몬 소스를 곁들인다."
+    ],
+    "calories": 175,
+    "servingSize": 1
+  },
+  {
+    "id": "api_94",
+    "title": "브로콜리 컬리플라워 샐러드와 두유 요거트 소스",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00094_2.png",
+    "ingredients": [
+      {
+        "id": "onion",
+        "amount": "10g(2×1cm",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "50g(3⅓큰술",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "적당량",
+        "required": true
+      },
+      {
+        "id": "broccoli",
+        "amount": "1/2개",
+        "required": true
+      },
+      {
+        "id": "cauliflower",
+        "amount": "1/4개",
+        "required": true
+      },
+      {
+        "id": "kidney_bean",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "milk",
+        "amount": "100ml",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "두유에 플레인요거트와 레몬즙, 설탕을 넣고 잘 섞어 두유요거트 소스를 만든다.",
+      "강낭콩은 물에 불린 후 콩과 물을 1:2.5로 넣고 20~25분 삶아 건지고 브로콜리와 컬리플라워는 한입 크기로 썰어 끓는 소금물에 살짝 데쳐 찬물에 헹궈 물기를 뺀다.",
+      "접시에 데친 브로콜리와 컬리플라워, 삶은 강낭콩, 채썬 적양파, 다진 호두, 건포도를 담고 두유요거트 소스를 곁들여 낸다."
+    ],
+    "calories": 210,
+    "servingSize": 1
+  },
+  {
+    "id": "api_108",
+    "title": "오렌지와 당근 만남주스",
+    "description": "후식 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00108_1.png",
+    "ingredients": [
+      {
+        "id": "carrot",
+        "amount": "100g(1/2개",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "오렌지는 깨끗이 씻어 껍질을 벗긴다.",
+      "당근은 깨끗이 씻어 작은 토막으로 썬다.",
+      "당근, 오렌지, 물(50ml)을 믹서에 곱게 간다.",
+      "믹서에 갈아낸 주스는 고운 체로 거른다.",
+      "주스를 살얼음이 생길 만큼 시원하게 냉동한다.",
+      "컵에 담아 마무리한다."
+    ],
+    "calories": 60,
+    "servingSize": 1
+  },
+  {
+    "id": "api_111",
+    "title": "칠곡석류국수",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00111_2.png",
+    "ingredients": [
+      {
+        "id": "noodle",
+        "amount": "160g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "4g(1작은술",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "4g(1작은술",
+        "required": true
+      },
+      {
+        "id": "cucumber",
+        "amount": "20g(1/4개",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "잣, 아몬드, 해바라기씨, 호두, 호박씨는 다진다.",
+      "끓는 물에 저염소금과 식초를 넣은 후 소면을 삶은 후 체에 건져 물기를\n뺀다.",
+      "석류는 물 600g와 함께 믹서에 갈고 체에 걸러 즙을 낸다. 그릇에 면을 담고 차갑게 식힌 석류즙을 붓고 견과류, 채 썬 오이를 고명으로 올린다."
+    ],
+    "calories": 73.4,
+    "servingSize": 1
+  },
+  {
+    "id": "api_113",
+    "title": "블랙빈 곤약국수",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00113_2.png",
+    "ingredients": [
+      {
+        "id": "egg",
+        "amount": "50g(1개",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "검은콩을 1시간 찬물에 담가 불린 후 삶아 익힌 후 불순물을 제거하고 흑임자, 생수, 삶은 콩, 호두를 믹서에 갈아 살엄음이 생기도록 냉동실에 넣는다.",
+      "오이는 돌려 깎아 채 썰고, 토마토는 1/8크기로 썰고, 달걀은 삶아 반으로 자른다.",
+      "실곤약은 끓는 물에 데치고 찬물에 헹궈 그릇에 담은 후 콩물을 담고 오이, 토마토, 달걀을 고명으로 올려 완성한다."
+    ],
+    "calories": 54.3,
+    "servingSize": 1
+  },
+  {
+    "id": "api_114",
+    "title": "닭가슴살 브로콜리 만두",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00114_2.png",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "20g(2개",
+        "required": true
+      },
+      {
+        "id": "chicken",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "2g(1/2작은술",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "4g(1작은술",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.5g",
+        "required": true
+      },
+      {
+        "id": "broccoli",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "브로콜리, 숙주, 표고버섯, 닭 가슴살은 다지고 다진 닭 가슴살은 소금과 후추로 밑간 한다.",
+      "다진 채소와 닭가슴살, 참기름, 저염간장을 섞어 만두소를 만든다.",
+      "준비한 만두피에 만두소를 넣은 후 만두 모양으로 빚고 만두를 찜통에 넣어 찌고 그릇에 담는다."
+    ],
+    "calories": 123.2,
+    "servingSize": 1
+  },
+  {
+    "id": "api_131",
+    "title": "함초 냉이 국수",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00131_2.png",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "25g(1/2개",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "140g(1/2개",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "150g(1/2개",
+        "required": true
+      },
+      {
+        "id": "radish",
+        "amount": "250g(1/3개",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "함초, 노루궁뎅이버섯, 다시마, 파, 양파, 무를 물에 넣어 10분 끓이고 향이 강한 모시조개와 냉이를 넣고 30분  끓인 후 간장으로 색을 낸다.",
+      "소면은 따로 삶는다.",
+      "그릇에 삶은 소면을 담은 후 육수를 붓고 지단, 슬라이스한 청고추, 실고추를 올려 완성한다."
+    ],
+    "calories": 35.8,
+    "servingSize": 1
+  },
+  {
+    "id": "api_137",
+    "title": "된장 두부찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00137_2.png",
+    "ingredients": [
+      {
+        "id": "tofu",
+        "amount": "320g(1모",
+        "required": true
+      },
+      {
+        "id": "rice",
+        "amount": "300g(1½컵",
+        "required": true
+      },
+      {
+        "id": "pork_belly",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "140g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "10g(2cm",
+        "required": true
+      },
+      {
+        "id": "gochugaru",
+        "amount": "5g(1작은술",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "두부에 쌀뜨물을 넣고 갈아준다.",
+      "돼지고기는 썰고 김치는 물에 씻어 양념을 제거하고 3×3cm로 썬다.",
+      "냄비에 돼지고기와 김치를 함께 볶은 후, 망에 거른 된장과 1의 두부, 고춧가루, 청양고추, 홍고추를 넣어 끓이다가 대파를 넣어 완성한다."
+    ],
+    "calories": 77.3,
+    "servingSize": 1
+  },
+  {
+    "id": "api_138",
+    "title": "부대된장찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00138_2.png",
+    "ingredients": [
+      {
+        "id": "tofu",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "rice_cake",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "spam",
+        "amount": "마일드 10g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "radish",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "5g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "김치, 베이컨, 스팸, 소시지, 양파, 두부, 무는 두께 0.5cm로 썬다.",
+      "다시마와 물을 끓여 다시마물을 만든다.",
+      "냄비에 소시지, 베이컨, 두부, 스팸, 무, 우민찌, 김치, 다시마물 300g을 넣어 끓인 후 저염된장, 양파, 대파, 다진 마늘, 떡국 떡을 넣고 재료가 다 익으면 홍고추와 청양고추를 넣어 완성한다."
+    ],
+    "calories": 72.6,
+    "servingSize": 1
+  },
+  {
+    "id": "api_181",
+    "title": "양배추감자전",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00181_2.png",
+    "ingredients": [
+      {
+        "id": "potato",
+        "amount": "100g(1개",
+        "required": true
+      },
+      {
+        "id": "cabbage",
+        "amount": "150g(1/2개",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "15g(1/10개",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "20g(1/20모",
+        "required": true
+      },
+      {
+        "id": "pork_belly",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "egg",
+        "amount": "60g(1개",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "2g(1/2작은술",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "감자는 믹서에 갈고 양배추는 채 썰고 고기, 당근, 청양고추, 두부는 다진다.",
+      "준비해둔 재료를 모두 섞고 부침가루와 계란을 넣어 반죽한다.",
+      "가열된 팬에 기름을 두르고 반죽을 부어 굽고 소스를 함께 곁들인다."
+    ],
+    "calories": 148.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_74",
+    "title": "돌나물 샐러드",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00074_2.png",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "60g(7개",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "10g(2작은술",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "청양고추와 홍고추를 다져서 참기름에 살짝 볶은 후 볶은 고추에 마요네즈와 레몬즙을 넣어 소스를 만든다.",
+      "돌나물은 손질하여 찬물에 담구고 새송이버섯은 달군 프라이팬에 참기름을 두르고 노릇\n하게 굽는다.",
+      "돌나물은 물기를 빼고 구운 새송이버섯과 레몬마요네즈 소스를 넣고\n버무려 접시에 담는다."
+    ],
+    "calories": 235,
+    "servingSize": 1
+  },
+  {
+    "id": "api_159",
+    "title": "석류 보쌈김치",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00159_2.png",
+    "ingredients": [
+      {
+        "id": "green_onion",
+        "amount": "10g(1개",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "5g(1작은술",
+        "required": true
+      },
+      {
+        "id": "shrimp",
+        "amount": "15g(1큰술",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "배추를 소금물에 하루 동안 절인 후 물기를 빼고 석류는 즙을 낸다.",
+      "무는 채 썰고, 쪽파와 미나리는 4cm로 자른다.",
+      "무채, 미나리, 쪽파, 다진 마늘, 다진 생강, 새우젓국을 넣고 섞어 소를 만들고 절인 배추에 소를 넣고 오므려 싼다. 석류즙에 소를 채운 배추를 담가 완성한다."
+    ],
+    "calories": 24.5,
+    "servingSize": 1
+  },
+  {
+    "id": "api_161",
+    "title": "유자 대구조림",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00161_2.png",
+    "ingredients": [
+      {
+        "id": "green_onion",
+        "amount": "10g(1/10개",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "10g(1/10개",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "10g(1/10개",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "10g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "발사믹 식초, 화이트와인, 다진 유자청 건더기를 넣고 졸여 소스를 만들고 대구를 손질하여 포를 뜬다.",
+      "대파, 청파프리카, 홍파프리카, 황파프리카를 채 썬다.",
+      "대구포에 밀가루를 묻혀 청파프리카, 홍파프리카, 황파프리카, 황금팽이버섯을 넣고 말아 미나리로 묶어 찐 후 소스를 뿌리고 썬 대파를 올려 완성한다."
+    ],
+    "calories": 84,
+    "servingSize": 1
+  },
+  {
+    "id": "api_162",
+    "title": "파프리카 물김치",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00162_2.png",
+    "ingredients": [
+      {
+        "id": "radish",
+        "amount": "10g(2cm",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "10g(10cm",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "140g(1½개",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "황파프리카를 갈아 체에 내리고 멥쌀로 쌀풀을 만들어 황파프리카 즙을 섞고 물엿을 첨가하여 양념을 만든다.",
+      "배추를 소금물에 절이고 절인 배추를 찬물로 씻어 소금기를 뺀다.",
+      "소금기를 뺀 배추에 채썬 자색고구마, 무, 쪽파, 부추, 사과, 배를 놓고 양념을 부은 후 3일 동안 숙성시켜 완성한다."
+    ],
+    "calories": 44.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_193",
+    "title": "고추장 라따뚜이",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00193_2.png",
+    "ingredients": [
+      {
+        "id": "zucchini",
+        "amount": "70g(1½개",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "60g(3개",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "10g(2개",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "10g(2작은술",
+        "required": true
+      },
+      {
+        "id": "gochujang",
+        "amount": "15g(1큰술",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "양파와 마늘은 다져서 볶다가 토마토 과육과 설탕, 바질을 넣고 고추장을 섞어 토마토 소스를 만든다.",
+      "가지, 양송이버섯, 애호박, 사과는 썰고 살라미는 데친다.",
+      "오븐용 팬에 토마토 소스를 넓게 펴준 뒤 애호박, 가지, 양송이버섯, 살라미를 겹치게 넣고 180℃로 예열한 오븐에 넣고 30분 구워 완성한다"
+    ],
+    "calories": 62.6,
+    "servingSize": 1
+  },
+  {
+    "id": "api_202",
+    "title": "토마토 가지 카프레제",
+    "description": "후식 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00202_2.png",
+    "ingredients": [
+      {
+        "id": "radish",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "10g(2개",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "올리브오일, 발사믹식초, 후춧가루를 섞어 차게 식혀 드레싱을 만든다.",
+      "가지와 토마토는 5mm두께로 썰고 120도 오븐에 20분 구운 후 구운 가지는 물기를 제거한다.",
+      "팬에 올리브오일을 두르고 약불에서 채 썬 마늘을 볶다가, 가지를 넣고 구운 후 접시에 토마토, 가지를 번갈아 담고 무순으로 장식하고 드레싱을 곁들인다."
+    ],
+    "calories": 90.5,
+    "servingSize": 1
+  },
+  {
+    "id": "api_636",
+    "title": "우렁된장소스 배추롤",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00636_2.png",
+    "ingredients": [
+      {
+        "id": "pork_belly",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "rice",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "2개",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "1/2개",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "끓는 물에 배춧잎을 데친다.",
+      "당근, 호박, 표고버섯, 양파는\n입자있게 다진다.",
+      "돼지고기를 썰어 불린 쌀, 다진 야채와\n함께 밥을 짓는다.",
+      "데친 배춧잎에 지어놓은 밥을 올려\n돌돌만다.",
+      "말아 놓은 배춧잎을 부추로 묶는다.",
+      "찜통에 김이 오르면 ?번을 넣고 약 5분\n정도 찐다."
+    ],
+    "calories": 326.3,
+    "servingSize": 1
+  },
+  {
+    "id": "api_637",
+    "title": "인삼떡갈비",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00637_2.png",
+    "ingredients": [
+      {
+        "id": "beef",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "pork_belly",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "1/2개",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "1/4개",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.2g",
+        "required": true
+      },
+      {
+        "id": "rice_cake",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "대추는 돌려 깍아 씨를 제거 하고 곱게\n다진다.",
+      "다진 소고기와 돼지고기에 대추와 소금\n후춧가루를 넣고 치댄다.",
+      "애호박과 단호박, 파프리카는\n입자있게 썰어 ?에 넣고 잘 치댄다.",
+      "양송이는 편으로 썰어 팬에 익히고,\n인삼을 뇌두를 자르고 깨끗이 씻어\n팬에 볶아 잘게 썰어 ?에 넣는다.",
+      "재료가 골고루 섞인 떡갈비를 갈비\n모양으로 만든다.",
+      "떡갈비를 팬에 굽고, 접시에 배춧잎을\n깔고 익힌 양송이를 올리고 떡갈비를\n담는다."
+    ],
+    "calories": 253.3,
+    "servingSize": 1
+  },
+  {
+    "id": "api_638",
+    "title": "초계탕과 사색곤약",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00638_2.png",
+    "ingredients": [
+      {
+        "id": "chicken",
+        "amount": "1마리",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "shrimp",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.3g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "cucumber",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "20g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "닭을 깨끗이 손질하고, 부위별로\n자른다.",
+      "냄비에 가시오가피, 대파, 다시마,\n마늘, 건새우를 넣고 은근히 끓인 후\n닭을 넣고 약 20분 정도 삶아 건진 뒤\n살을 찢어둔다.",
+      "양파, 오이는 채썰고 식초, 설탕,\n소금을 넣고 초절임한다",
+      "겨자가루에 30℃ 정도의 물을 넣고\n골고루 섞어 발효시키고, 설탕, 식초,\n소금을 넣고 겨자소스를 만든다",
+      "흰곤약과 비트, 치자가루를 섞은 곤약,\n채썬 다시마를 접시에 담는다.",
+      "양파, 오이 초절임과 닭살을 한쪽에\n담아 먹기 직전에 겨자소스를 올린다."
+    ],
+    "calories": 100.1,
+    "servingSize": 1
+  },
+  {
+    "id": "api_639",
+    "title": "호박잎 삼계탕",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00639_2.png",
+    "ingredients": [
+      {
+        "id": "zucchini",
+        "amount": "5장",
+        "required": true
+      },
+      {
+        "id": "chicken",
+        "amount": "가슴살",
+        "required": true
+      },
+      {
+        "id": "rice",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.2g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "찹쌀은 깨끗이 씻어 30분 정도 불린다",
+      "불린 찹쌀은 냄비에 넣고 질게 밥을\n한다.",
+      "닭가슴살은 넓게 펴서 소금,\n후춧가루를 뿌린다.",
+      "호박잎과 미나리는 끓는 물에 살짝\n데치고, 대추는 돌려 깎아 씨를\n제거하고 인삼은 뇌두를 제거한 뒤\n채를 썰어둔다.",
+      "데친 호박잎에 닭 가슴살을 올린다.",
+      "닭 가슴살위에 찹쌀밥과 준비한 야채와\n대추를 올려 돌돌 말아 질게 된\n찹쌀밥에 넣고 약 20분 정도 더 쪄낸다."
+    ],
+    "calories": 314.1,
+    "servingSize": 1
+  },
+  {
+    "id": "api_640",
+    "title": "황태미역 곤약스프",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00640_2.png",
+    "ingredients": [
+      {
+        "id": "tofu",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "1개",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "5g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "된장에 두부를 넣고 골고루 섞는다.",
+      "표고버섯과 마늘은 함께 갈아둔다.",
+      "미역은 충분히 불린다.",
+      "냄비에 황태채와 갈아둔 표고버섯,\n마늘을 넣고 은근히 끓여 육수를\n만든다.",
+      "곤약은 납작납작하게 썰어 끓는 물에\n데친다.",
+      "육수에서 황태를 건져 두부된장과 함께\n갈아 육수에 붓고, 미역, 곤약,\n들깨가루를 넣고 약 20분 정도 끓인 후\n액젓으로 간을 한다."
+    ],
+    "calories": 124.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_642",
+    "title": "훈제오리가슴살크러스트",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00642_2.png",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "1개",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "smoked_duck",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "훈제오리 가슴살은 올리브오일,\n로즈마리, 후춧가루로\n마리네이드한다.",
+      "새송이버섯은 편으로 썰고 팬에\n굽는다.",
+      "오렌지는 슬라이스로 썬다.",
+      "땅콩과 파슬리는 입자있게 다진다.",
+      "마리네이드한 오리 고기를 구워 접시에\n담는다.",
+      "유자청에 땅콩, 파슬리가루를 넣고\n소스를 만들고, 구워진 오리고기\n사이에 오렌지 슬라이스를 넣고\n유자청소스를 올린다."
+    ],
+    "calories": 250,
+    "servingSize": 1
+  },
+  {
+    "id": "api_643",
+    "title": "간장소스를 곁들인 새우전복찜",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00643_2.png",
+    "ingredients": [
+      {
+        "id": "shrimp",
+        "amount": "3마리",
+        "required": true
+      },
+      {
+        "id": "spinach",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.1g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "10g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "전복은 수저로 떼어내어 소금으로 비벼\n깨끗이 씻는다.",
+      "시금치는 데쳐 다지고, 새우는 껍질을\n벗겨 전복, 해초와 함께 다진다.",
+      "?번을 잘 섞어 전복 껍질에 넣는다.",
+      "찜통에 김이 오르면 속을 채운 전복\n껍질을 넣고 약 10분 정도 찐다.",
+      "저염간장, 레몬, 설탕, 다진마늘을\n넣고 살짝 끓여 소스를 만든다.",
+      "간장소스에 전분을 풀어 농도를\n맞추고, 전복찜에 여러번 바르고\n식용꽃을 올린다."
+    ],
+    "calories": 119.1,
+    "servingSize": 1
+  },
+  {
+    "id": "api_644",
+    "title": "검은콩국수",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00644_2.png",
+    "ingredients": [
+      {
+        "id": "cucumber",
+        "amount": "30g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "검은콩은 깨끗이 씻어 약 12시간 정도\n충분히 불린다.",
+      "불린 검은콩은 20분 정도 삶아 깨끗이\n씻는다.",
+      "삶은 검은콩은 믹서기에 곱게 갈아\n차갑게 식힌다.",
+      "오이는 씨를 제거하고 깨끗이 씻어\n채썬다.",
+      "물을 끓여 메밀면을 삶고, 찬물에\n여러번 헹구어 건져 물기를 뺀다.",
+      "메밀면을 그릇에 담고 차가운 콩 국물,\n땅콩, 잣, 오이, 방울토마토 및 통깨를\n올린다."
+    ],
+    "calories": 343.6,
+    "servingSize": 1
+  },
+  {
+    "id": "api_271",
+    "title": "닭고기김치찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00271_2.png",
+    "ingredients": [
+      {
+        "id": "chicken",
+        "amount": "60g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "radish",
+        "amount": "40g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "육수 재료를 넣고 중간 불로 끓인 뒤\n체에 걸러 육수를 만든다.",
+      "닭가슴살은 채 썬 뒤 물에 넣고\n삶는다.",
+      "애호박은 반달 썰고, 미나리는 5㎝\n길이로 썰고, 청양고추는 잘게 썬 뒤\n찬물에 담가 씨를 빼고, 두부는 한입\n크기로 썰어 물에 담가둔다.",
+      "김치를 한입 크기로 썬 뒤 참기름에\n볶다가 육수를 붓는다.",
+      "두부, 애호박, 느타리버섯, 미나리,\n닭가슴살을 넣어 끓어오르면\n달걀물과 청양고추를 넣고 조금\n더 끓여 마무리한다."
+    ],
+    "calories": 277.1,
+    "servingSize": 1
+  },
+  {
+    "id": "api_272",
+    "title": "완자김치찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00272_2.png",
+    "ingredients": [
+      {
+        "id": "bean_sprout",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "beef",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "대파, 마늘, 쇠고기를 물(300g)과\n함께 끓인 뒤 면포에 걸러 육수를\n만든다.",
+      "콩나물, 김치를 물에 씻어 손질한다.",
+      "두부는 물기를 빼고, 붉은 고추는\n다진 뒤 돼지고기와 섞어 반죽해\n동그랗게 빚어 완자를 만든다.",
+      "김 오른 찜기에 완자를 넣어 찐다.",
+      "육수를 끓이고 끓어오르면 김치,\n콩나물, 새우젓을 넣는다.",
+      "한소끔 더 끓이다가 완자를 넣고\n조금 더 끓여 마무리한다."
+    ],
+    "calories": 161.1,
+    "servingSize": 1
+  },
+  {
+    "id": "api_273",
+    "title": "백김치콩비지찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00273_2.png",
+    "ingredients": [
+      {
+        "id": "kimchi",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "2g",
+        "required": true
+      },
+      {
+        "id": "congbiji",
+        "amount": "200g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "풋고추는 잘게 다진다.",
+      "백김치는 먹기 좋은 크기로 썬다.",
+      "냄비에 백김치를 볶다가 김치가\n익으면 참기름, 후춧가루,\n다진 마늘을 넣고 볶는다.",
+      "물(200g)을 넣고 끓인다.",
+      "물이 끓으면 콩비지와 간장,\n풋고추를 넣어 약한 불에서 15분\n정도 끓여 마무리한다."
+    ],
+    "calories": 195.3,
+    "servingSize": 1
+  },
+  {
+    "id": "api_274",
+    "title": "오징어김치찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00274_2.png",
+    "ingredients": [
+      {
+        "id": "squid",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "bean_sprout",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "140g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "anchovy",
+        "amount": "10g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "육수 재료를 넣고 끓인 뒤 체로 걸러\n육수를 낸다.",
+      "오징어 몸통은 큼지막하게 썰고\n다리는 얇게 썬다.",
+      "두부와 버섯은 먹기 좋게 썰고,\n고추는 어슷하게 썰고, 고구마는\n먹기 좋은 크기로 썰고, 콩나물은\n다듬는다.",
+      "김치는 먹기 좋은 크기로 썬 뒤\n냄비에 참기름을 두르고 볶다가\n고구마, 콩나물, 육수를 넣고 끓인다.",
+      "자작하게 끓으면 오징어를 넣고\n끓이고, 오징어가 익으면 들깻가루를\n넣고 끓인다.",
+      "두부, 팽이버섯, 쑥갓, 고구마,\n붉은 고추를 넣고 끓여 마무리한다."
+    ],
+    "calories": 159.1,
+    "servingSize": 1
+  },
+  {
+    "id": "api_275",
+    "title": "해물김치찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/20230306/20230306022845_1678080525384.jpg",
+    "ingredients": [
+      {
+        "id": "kimchi",
+        "amount": "40g",
+        "required": true
+      },
+      {
+        "id": "radish",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "3g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "3g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "3g",
+        "required": true
+      },
+      {
+        "id": "anchovy",
+        "amount": "10g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "냄비에 육수 재료를 넣고 끓이다가 물이 끓어오르면 다시마를 건지고 조금 더 끓여 육수를 우려낸다.",
+      "주꾸미는 내장과 입, 눈을 제거하고 4cm 크기로 잘라 준비한다.",
+      "김치는 국물을 꽉 짜서 한입 크기로 썰고, 무는 편 썰고, 마늘은 다지고, 대파는 어슷 썰고, 양파는 굵게 채 썰고, 두부는 납작하게 썬다.",
+      "냄비에 참기름을 두르고, 김치, 무, 양파가 투명해질 때까지 볶다가 육수를 붓고 끓으면 주꾸미, 다진 마늘을 넣어 더 끓인다.",
+      "김칫국물과 배즙을 2:1로 섞은 뒤 찌개에 넣어 간을 맞춘다.",
+      "두부, 팽이버섯을 넣고 한소끔 끓여 마무리한다"
+    ],
+    "calories": 53.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_276",
+    "title": "맑은부대찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00276_2.png",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.1g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "다시마육수재료를 물에 넣고 끓여\n육수를 낸다.",
+      "느타리버섯은 가닥가닥 떼고, 두부는\n썰고, 콩나물은 머리와 꼬리를 떼\n손질한다.",
+      "배추와 미나리를 데친다.",
+      "돼지고기, 쇠고기에 고기완자양념을\n넣어 반죽한 뒤 빚어 완자를 만든다.",
+      "냄비에 모든 재료를 돌려 담은 뒤\n육수를 부어 끓인다."
+    ],
+    "calories": 395.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_277",
+    "title": "나가사키부대찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00277_2.png",
+    "ingredients": [
+      {
+        "id": "spam",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "milk",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "40g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "5g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "통조림 햄은 한 번 데친 뒤 우유에\n담가두고, 실곤약은 식초를 넣은\n끓는 물에 살짝 데친다.",
+      "양파는 굵게 채 썰고, 느타리버섯은\n찢고, 표고버섯은 모양대로 썰고,\n팽이버섯은 끝부분을 잘라내고,\n청양고추와 붉은 고추는 어슷 썬다.",
+      "감자, 무, 두부는 0.5㎝ 두께로 썰고,\n애호박은 반달썰기 하고 깻잎은\n채 썰어 찬물에 담가 매운맛을\n제거한다.",
+      "사골육수에 다시마를 넣어 끓인 후\n한 김 식힌다.",
+      "다진 돼지고기에 다진 파, 다진 마늘,\n후춧가루, 소금을 섞어 완자를\n만들고 밀가루와 달걀물을 묻혀\n식용유(5g)를 두른 팬에 부친다.",
+      "냄비에 재료를 보기 좋게 담고\n사골육수를 부은 뒤 끓이다가\n쑥갓과 들깻가루를 넣어 마무리한다."
+    ],
+    "calories": 342.7,
+    "servingSize": 1
+  },
+  {
+    "id": "api_278",
+    "title": "삼계부대찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00278_2.png",
+    "ingredients": [
+      {
+        "id": "chicken",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "6g",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "40g",
+        "required": true
+      },
+      {
+        "id": "gochugaru",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "rice",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "3g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "육수 재료를 넣고 20분간 끓여\n육수를 낸다.",
+      "닭가슴살과 당근을 다져 모양을\n잡은 뒤 김 오른 찜기에 넣고 찐다.",
+      "고추, 대파는 어슷 썰고, 쑥갓,\n표고버섯, 애호박, 김치는 먹기\n좋은 크기로 썰고, 팽이버섯은\n밑동을 잘라 손질한다.",
+      "당면과 숙주는 뜨거운 물에 데쳐\n준비한다.",
+      "양념장 재료를 섞은 뒤 육수(13g)를\n넣고 양념장을 만든다.",
+      "준비한 재료를 담고 육수를 부은 뒤\n양념장을 넣고 끓여 마무리한다."
+    ],
+    "calories": 299.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_279",
+    "title": "쑥갓부대찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/20230308/20230308012547_1678249547987.jpg",
+    "ingredients": [
+      {
+        "id": "spam",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "gochugaru",
+        "amount": "4g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "2g",
+        "required": true
+      },
+      {
+        "id": "gochujang",
+        "amount": "2g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "통조림 햄을 썰어 끓는 물에 데친다.",
+      "애호박은 반달모양으로 썰고, 두부는 도톰하게 썰고, 팽이버섯은 3등분하고, 청양고추는 어슷 썬다.",
+      "김치는 씻어서 잘게 썬다.",
+      "양념장을 만든다.",
+      "냄비에 물과 다시마를 넣고 살짝 끓여 육수를 만든다.",
+      "육수에 손질한 재료를 담고 양념장의 1/2 분량을 넣고 중간 불에 끓이다가 쑥갓과 남은 양념장을 넣고 약한 불에 조금 더 끓여 마무리한다."
+    ],
+    "calories": 126.3,
+    "servingSize": 1
+  },
+  {
+    "id": "api_280",
+    "title": "들깨순두부찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00280_2.png",
+    "ingredients": [
+      {
+        "id": "anchovy",
+        "amount": "2g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "40g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "3g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "1.5g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.5g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "굴은 깨끗이 씻은 뒤 김 오른 찜기에\n찐다.",
+      "굴을 쪄낸 물(250g)에 멸치,\n표고버섯 밑동을 넣고 끓인 뒤\n멸치와 표고버섯 밑동을 건져내\n육수를 만든다.",
+      "느타리버섯은 밑동을 제거한 후\n씻어 세로로 찢고, 표고버섯은\n0.5㎝ 두께로 썬다.",
+      "무는 나박 썰고 양파는 채 썰고,\n미나리는 3㎝ 길이로 썰고,\n대파와 고추는 송송 썬다.",
+      "육수에 굴, 다진 마늘, 무, 양파,\n버섯을 넣고 끓인다.",
+      "들깻가루와 순두부를 넣고 한소끔\n끓인 뒤 국간장과 소금으로 간을\n맞추고 대파, 붉은 고추, 미나리를\n올려 마무리한다."
+    ],
+    "calories": 171.7,
+    "servingSize": 1
+  },
+  {
+    "id": "api_281",
+    "title": "백태순두부찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00281_2.png",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "shrimp",
+        "amount": "25g",
+        "required": true
+      },
+      {
+        "id": "anchovy",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "냄비에 육수 재료를 넣어 끓인다.",
+      "콩을 충분히 불려 믹서기에 물을\n넣고 갈아 준비한다.",
+      "느타리버섯은 찢고, 표고버섯은 먹기\n좋은 크기로 자르고, 애호박과\n양파는 깍둑 썰고, 대파와 고추는\n송송 썬다.",
+      "바지락은 해감해 준비한다.",
+      "육수에 콩, 느타리버섯, 표고버섯,\n애호박, 저염된장, 새우, 바지락을\n넣고 끊인다.",
+      "순두부를 넣고 끊인 후 양파, 대파,\n붉은 고추, 풋고추를 넣고 한소끔\n끓여 마무리한다."
+    ],
+    "calories": 165.4,
+    "servingSize": 1
+  },
+  {
+    "id": "api_282",
+    "title": "버섯순두부찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/20230308/20230308053608_1678264568602.jpg",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "3g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "potato",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "3g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "3g",
+        "required": true
+      },
+      {
+        "id": "rice",
+        "amount": "3g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "표고버섯은 머리와 밑동을 분리하고, 머리 부분은 잘게 썬다.",
+      "애호박, 감자, 양파는 한입 크기로 썰고, 미나리와 부추는 3cm 길이로 썰고, 대파와 청양고추는 송송 썬다.",
+      "물에 다시마, 표고버섯 밑동을 넣고 끓으면 건더기를 건져 육수를 만든다.",
+      "육수에 저염된장과 찹쌀가루를 풀어 한소끔 끓이고, 감자와 다진마늘을 넣어 끓인다.",
+      "애호박과 표고버섯을 넣고, 순두부, 양파, 들깻가루, 저염국간장을 넣어 한소끔 끓인다.",
+      "대파, 청양고추, 미나리, 부추를 듬뿍 올려 마무리한다."
+    ],
+    "calories": 85.7,
+    "servingSize": 1
+  },
+  {
+    "id": "api_283",
+    "title": "토란순두부찌개",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00283_2.png",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "150g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "토란은 2×2㎝로 썬다.",
+      "표고버섯은 채 썰고, 고추는\n어슷하게 썬다.",
+      "냄비에 물(500ml)을 넣고 물이\n끓으면 백합을 넣고 끓여 육수를\n낸다.",
+      "조개가 입을 벌리면 토란과\n들깻가루, 표고버섯을 넣고 끓인다.",
+      "육수가 어느 정도 걸쭉해지면\n순두부를 넣고 끓인다.",
+      "붉은 고추와 청양고추를 올려\n마무리한다."
+    ],
+    "calories": 312.7,
+    "servingSize": 1
+  },
+  {
+    "id": "api_385",
+    "title": "토마토스프파스타",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00385_2.png",
+    "ingredients": [
+      {
+        "id": "onion",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "25g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "20g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "토마토홀과 토마토는 송송 다져주고, 마늘,\n양파를 냄비에서 볶은 후 믹서에 갈아 토마토\n스프를 만들어준다.",
+      "만들어진 스프를 볶아서 신맛을 날려준다.",
+      "먹물파스타면은 삶은 뒤 오일에 버무려주고\n볶아준다.",
+      "양파, 애호박, 가지, 2가지색 파프리카를 먹기\n좋게 잘라 팬에 볶아준다.",
+      "접시에 볶아진 채소와 파스타면을 서로 다시\n볶아준다.",
+      "치즈를 곱게 다져주고 접시에 파스타면을\n올린 뒤, 토마토스프와 치즈가루를 뿌려 완성\n한다."
+    ],
+    "calories": 282.6,
+    "servingSize": 1
+  },
+  {
+    "id": "api_386",
+    "title": "다이어트국수",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00386_2.png",
+    "ingredients": [
+      {
+        "id": "kimchi",
+        "amount": "200g",
+        "required": true
+      },
+      {
+        "id": "cucumber",
+        "amount": "25g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "5g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "양파, 당근, 오이는 채 썰어준다.",
+      "열무 물김치와 탄산수, 어간장을 넣어 국수\n국물을 만들어준다.",
+      "달걀은 삶아준다.",
+      "실곤약은 삶을 때 레몬즙을 넣어서 곤약의\n특이한 냄새를 제거한다.",
+      "물기를 제거한 곤약에 어간장을 넣어 밑간을\n해준다.",
+      "그릇에 담고 국물을 부어주고, 채소와 달걀을\n곁들여 완성한다."
+    ],
+    "calories": 36.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_387",
+    "title": "오징어구이",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00387_2.png",
+    "ingredients": [
+      {
+        "id": "squid",
+        "amount": "300g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "40g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "gochugaru",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "gochujang",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "1g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "오징어는 솔방울 모양으로 잘라준다.",
+      "미니 파프리카, 양파, 청홍고추는 적당한\n크기로 잘라준다.",
+      "다진마늘을 볶다가 오징어를 넣어 볶는다.",
+      "홀토마토와 양념장 재료를 넣어 볶는다.",
+      "팬을 약간 태우는 듯 해서 불맛과 매운맛을\n더해준다.",
+      "접시에 담아주고 볶은 현미를 뿌려 완성한다."
+    ],
+    "calories": 278.1,
+    "servingSize": 1
+  },
+  {
+    "id": "api_389",
+    "title": "웰빙스테이크",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00389_2.png",
+    "ingredients": [
+      {
+        "id": "beef",
+        "amount": "240g",
+        "required": true
+      },
+      {
+        "id": "spinach",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "50g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "쇠고기는 칼집을 살짝 넣어준 후 건 바질을\n뿌려 1시간 정도 숙성시킨다.",
+      "감자는 껍질을 벗긴 후 먹기 좋게 잘라 뜨거운\n물에 70% 정도 익혀준다.",
+      "익혀준 감자를 버터를 살짝 바른 후 팬에\n파슬리가루를 뿌려 구워준다.",
+      "시금치는 데쳐내 물기를 제거하고 다진 양파와\n함께 버터에 볶아준다.",
+      "사과는 사방 1cm 크기로 자른 후 레몬즙을\n살짝 뿌려준 후 버터에 볶아 소스를 만들어\n준다.",
+      "숙성된 소고기를 팬에 구워주고 곁들이 채소와\n소스를 완성한다."
+    ],
+    "calories": 273,
+    "servingSize": 1
+  },
+  {
+    "id": "api_390",
+    "title": "오징어콩순대",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00390_2.png",
+    "ingredients": [
+      {
+        "id": "squid",
+        "amount": "1마리(220g",
+        "required": true
+      },
+      {
+        "id": "rice",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "15g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "오징어는 내장을 빼서 흐르는 물에 깨끗이\n씻은 후, 다리는 송송 다져주고 레몬즙을\n살짝 뿌려준다.",
+      "강낭콩은 먼저 삶아준다.",
+      "피망, 당근, 양파, 대파, 파프리카는 송송\n다져준다.",
+      "잘라준 오징어다리는 다진마늘과 살짝\n볶아준다.",
+      "볼에 귀리밥을 넣고 카레가루를 넣고 모든\n재료를 섞어 소 재료를 만든다.",
+      "오징어 안쪽에 밀가루를 묻혀주고 소를 채워\n팬에 구워준다."
+    ],
+    "calories": 213.5,
+    "servingSize": 1
+  },
+  {
+    "id": "api_391",
+    "title": "토마토소고기장조림",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00391_2.png",
+    "ingredients": [
+      {
+        "id": "beef",
+        "amount": "200g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "15g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "소고기는 사방 2cm 정도의 크기로 잘라서\n물에서 80% 정도까지 익혀준 후 냉수에\n깨끗하게 세척해 준다.",
+      "양파는 먹기 좋게 자르고 물 400g과 함께\n간장 물을 만들어준다.",
+      "간장 물에 데쳐 놓은 소고기부터 졸여주기\n시작한다.",
+      "메추리알을 넣고 함께 졸여준다.",
+      "방울토마토, 양파, 마늘, 꽈리고추까지 넣고\n마지막으로 졸여준다."
+    ],
+    "calories": 282.6,
+    "servingSize": 1
+  },
+  {
+    "id": "api_392",
+    "title": "토마토소고기찜",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00392_2.png",
+    "ingredients": [
+      {
+        "id": "beef",
+        "amount": "200g",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "2g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "1g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "당근, 양파, 샐러리는 사방 2cm 정도로\n잘라준다.",
+      "레몬은 껍질을 아주 곱게 채 썰어준다.",
+      "소고기는 사방 3cm 정도로 자르고 흰 후추를\n뿌려준다.",
+      "홀토마토는 먹기 좋게 부수어 준 후 볶아준다.",
+      "팬에 버터를 넣고 소고기부터 볶기 시작하다\n채소를 넣고 볶아준다. 이 때 두꺼운 채소부터\n볶아주는 것이 고기랑 익는 시간이 같아진다.",
+      "마지막에 다져 놓은 홀토마토를 넣고 함초소금\n으로 간을 한 후 레몬껍질을 올려서 마무리\n한다."
+    ],
+    "calories": 302.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_393",
+    "title": "맛간장삼치구이",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00393_2.png",
+    "ingredients": [
+      {
+        "id": "green_onion",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "spanish_mackerel",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "소스 재료를 이용해 맛 간장으로 만든 데리\n야끼소스를 만들어준다.",
+      "참치는 손질해 수분을 빼준 후 흰 후추로\n밑간을 해준다.",
+      "생강은 아주 곱게 채 썰어 냉수에 헹군다.",
+      "대파도 아주 가늘게 채 썰어서 냉수에 담가\n매운맛을 빼준다.",
+      "버터를 올린 팬에 삼치를 약불에서 구워준다.",
+      "구워진 참치를 소스에 졸여주고 대파채를\n올린다. 삼치에 소스를 뿌리고 생강채를 올려\n완성한다."
+    ],
+    "calories": 220.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_394",
+    "title": "삼겹살꼬치구이",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00394_2.png",
+    "ingredients": [
+      {
+        "id": "pork_belly",
+        "amount": "200g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "gochugaru",
+        "amount": "1g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "삼겹살은 길이로 잘라서 마늘기름, 통후추,\n로즈마리에 마리네이드 해준다.",
+      "대파는 흰 부분만 잘라 구워주고, 꽈리고추도\n함께 구워준다.",
+      "대파는 가늘게 채 썰어 물에 담가준다.",
+      "물에 담가진 대파를 물기를 빼고 양념해준다.",
+      "삼겹살을 꼬치에 끼워 굽고 구워진 채소,\n대파채와 함께 완성한다."
+    ],
+    "calories": 289.5,
+    "servingSize": 1
+  },
+  {
+    "id": "api_395",
+    "title": "새우아욱죽",
+    "description": "밥 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00395_2.png",
+    "ingredients": [
+      {
+        "id": "rice",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "shrimp",
+        "amount": "25g",
+        "required": true
+      },
+      {
+        "id": "shrimp",
+        "amount": "25g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "저염 된장을 물 300cc에 풀어준 뒤 건새우를\n담가 30분 정도 담가준 뒤 살짝 끓여준다.",
+      "새우를 풀어준 된장 물을 체에 걸러준다.",
+      "아욱은 뜨거운 물에 데쳐서 먹기 좋게 썬다.",
+      "냄비에 밥과 된장 물을 풀어 끓인다.",
+      "어느 정도 끓으면 칵테일새우와 건져 놓았던\n새우를 다시 넣어준다.",
+      "불을 끄기 전에 아욱을 넣어 한 번 더 끓여준\n후 완성한다."
+    ],
+    "calories": 201.3,
+    "servingSize": 1
+  },
+  {
+    "id": "api_396",
+    "title": "까르보나라뇨끼",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00396_2.png",
+    "ingredients": [
+      {
+        "id": "potato",
+        "amount": "220g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "25g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "25g",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "3g",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "cheese",
+        "amount": "15g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "감자를 슬라이스 하여 찜통에 찐 후 체에\n으깬다. 깻잎을 잘게 채 썰어서 냉수에 담가\n향을 빼준다.",
+      "베이컨을 한 번 데쳐내 송송 썰어준 후 다진\n마늘과 볶아준다.",
+      "으깬 감자와 깻잎을 다져서 반죽을 만들고\n엄지손가락 크기로 떼어 밀가루를 뿌리고,\n둥글게 빚은 후 포크로 자국을 내 뇨끼를 만든다.",
+      "만들어진 뇨끼를 삶아 건져준다.",
+      "팬에 버터를 넣고 다진양파, 다진마늘, 다진\n대파, 볶은 베이컨, 새송이, 흰후추를 볶다가\n우유와 생크림, 설탕을 넣고 끓여준다.",
+      "뇨끼를 넣어 한 번 더 끓여준 뒤 완성한다."
+    ],
+    "calories": 351.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_397",
+    "title": "호박죽",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00397_2.png",
+    "ingredients": [
+      {
+        "id": "zucchini",
+        "amount": "200g",
+        "required": true
+      },
+      {
+        "id": "rice",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "60g",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "cheese",
+        "amount": "15g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "단호박은 껍질을 까고 작게 잘라주고, 양파도\n작게 잘라준다.",
+      "브로콜리는 뜨거운 물에 데쳐내 준 후 송송\n잘라준다.",
+      "찹쌀가루는 물 100g에 풀어준다.",
+      "단호박과 양파는 물 300g에 삶아준다.",
+      "단호박과 양파가 익으면 믹서에 갈아서 다시\n끓여준 뒤 찹쌀가루물을 넣어 끓여준다.",
+      "호박죽이 끓어오르면 치즈가루를 넣어준 후\n볶은 현미랑 완성한다."
+    ],
+    "calories": 150.1,
+    "servingSize": 1
+  },
+  {
+    "id": "api_398",
+    "title": "라이스버거떡갈비",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00398_2.png",
+    "ingredients": [
+      {
+        "id": "rice",
+        "amount": "200g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "1g",
+        "required": true
+      },
+      {
+        "id": "pork_belly",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "rice_cake",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "팽이버섯을 송송 다진 후 라이스버거 재료로\n라이스버거를 만들어준다.",
+      "만들어준 버거는 팬에 구워준다.",
+      "토마토와 미나리를 먹기 좋게 잘라서 겉절이를\n만들어준다.",
+      "떡갈비 재료로 떡 갈비를 만들어준다.",
+      "만들어진 떡갈비를 구워준다.",
+      "접시에 토마토 겉절이를 담고 라이스버거와\n떡갈비를 올려 완성한다."
+    ],
+    "calories": 206.2,
+    "servingSize": 1
+  },
+  {
+    "id": "api_399",
+    "title": "고추김치",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/20230306/20230306052031_1678090831734.jpg",
+    "ingredients": [
+      {
+        "id": "cucumber",
+        "amount": "40g",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "오이고추는 배를 갈라 씨를 제거하고 세척 후 절임물에 절여준다.",
+      "영양부추, 연근은 송송 다지고 무는 채 썬다.",
+      "손질한 부추와 연근, 무에 절임물을 조금 넣고 절인다.",
+      "고춧가루, 생강청, 통깨를 절임채소에 섞어 소를 만든다.",
+      "오이고추 속에 소를 채워 넣는다.",
+      "오이고추를 그릇에 담고 남은 물을 부어 마무리한다."
+    ],
+    "calories": 16.1,
+    "servingSize": 1
+  },
+  {
+    "id": "api_500",
+    "title": "누룽닭",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00500_2.png",
+    "ingredients": [
+      {
+        "id": "chicken",
+        "amount": "120g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "shrimp",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.2g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "닭은 포를 떠서 생강즙과 정종을 섞어\n발라 놓는다.",
+      "시금치는 살짝 데쳐 썰고, 당근, 양파,\n샐러리, 파프리카는 약 6Cm 길이로\n채를 썰어 절반은 닭고기말이에 사용\n하고, 절반은 곁들임채소로 사용한다.",
+      "느타리는 끓는 물에 소금을 넣고 데쳐\n손으로 찢어놓고, 포를 뜬 닭가슴살에\n느타리와 썰어 놓은 채소를 넣어 말아\n주고, 육수를 끓여서 말아놓은 닭을\n넣고 익혀낸다.",
+      "주꾸미와 새우는 끓는 물에 살짝 데치고,\n청경채는 반으로 썰어 살짝 데쳐 준비\n한다.",
+      "튀김기름 온도가 180℃ 정도 되면\n누룽지를 넣고 튀겨 기름을 밭쳐 놓는다.",
+      "닭을 넣은 육수(③)에 간장과 녹말,\n마늘, 소금, 후춧가루를 넣고 끓이다가,\n곁들임채소로 남겨 놓은 채소(②)와\n데쳐 놓은 해물 및 청경채를 넣고 한 번 더\n끓인 뒤 튀겨진 누룽지를 넣어 완성한다."
+    ],
+    "calories": 415.5,
+    "servingSize": 1
+  },
+  {
+    "id": "api_502",
+    "title": "치즈감자크로켓",
+    "description": "후식 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00502_2.png",
+    "ingredients": [
+      {
+        "id": "potato",
+        "amount": "150g",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "cheese",
+        "amount": "50g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "감자는 껍질을 벗겨 삶는다.",
+      "오이와 당근은 어슷썰기를 하고 양파는\n채를 썰어놓는다.",
+      "썰어 놓은 채소에 소금과 물을 넣고\n살짝 절여, 물기를 짜놓는다.",
+      "삶아 놓은 감자를 채에 내리고\n생크림을 넣어 섞는다.",
+      "생크림을 넣은 감자에 절여 놓은 채소와\n모짜렐라치즈를 넣고 골고루 섞는다.",
+      "섞여진 감자를 크로켓 모양을 만들어\n밀가루, 달걀물, 빵가루를 묻혀 튀김기름\n170~180℃ 온도에서 바삭하게 튀겨\n냅킨에 올려 기름을 제거하고, 접시에\n담아 완성한다."
+    ],
+    "calories": 588.5,
+    "servingSize": 1
+  },
+  {
+    "id": "api_503",
+    "title": "코코넛밀크카레",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00503_2.png",
+    "ingredients": [
+      {
+        "id": "tofu",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.3g",
+        "required": true
+      },
+      {
+        "id": "pork_belly",
+        "amount": "50g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "두부는 소창에 넣고, 짜서 물기를\n제거하고, 으깨어 놓는다.",
+      "으깬 두부에 소금과 코코넛 밀크를\n넣고 골고루 섞는다.",
+      "섞여진 두부를 김이 오른 찜통에 넣고\n약 5분 정도 찐다.",
+      "당근과 양파는 사각지게 썰고,\n브로컬리는 데쳐 당근 크기로 썰어\n놓는다.",
+      "돼지고기와 감자는 당근 크기로 썰어\n주고, 냄비에 버터를 녹여 돼지고기를\n먼저 볶다가 양파와 당근, 감자,\n브로컬리를 넣고 다시 볶아 준 뒤,\n쪄놓은 두부를 넣어 한 번 더 볶아준다.",
+      "볶아지는 냄비(⑤)에 카레 가루를 넣고\n살짝 더 볶아준 뒤, 물을 넣고 자작하게\n끓여 완성한다."
+    ],
+    "calories": 330.2,
+    "servingSize": 1
+  },
+  {
+    "id": "api_504",
+    "title": "소고기리조또롤",
+    "description": "밥 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00504_2.png",
+    "ingredients": [
+      {
+        "id": "rice",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.1g",
+        "required": true
+      },
+      {
+        "id": "beef",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "쌀은 불려 놓고, 마늘은 작게 다지고,\n양파는 새송이와 파프리카와 함께\n입자를 크게 다져 준비한다.",
+      "소고기는 포를 넓게 떠서 소금과\n후춧가루를 뿌려 밑간을 해 놓는다.",
+      "냄비에 버터를 넣고, 마늘과 양파를\n먼저 볶다가, 새송이와 파프리카를\n넣는다.",
+      "③번에 다시 불린 쌀과 강화를 넣고,\n볶다가 불을 줄여, 쌀이 익을 때까지\n익혀 준다.",
+      "쌀이 익으면, 밑간이 되어 있는\n소고기에 넣고 돌돌 말아 준비한다.",
+      "하얀 된장에 생크림을 넣어 골고루 섞고,\n냄비에 육수를 넣고 생크림을 섞은 하얀\n된장을 넣어 끓으면, 말아놓은 소고기를\n넣고 은근히 졸여 완성한다."
+    ],
+    "calories": 382.5,
+    "servingSize": 1
+  },
+  {
+    "id": "api_505",
+    "title": "둥지튀김",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00505_2.png",
+    "ingredients": [
+      {
+        "id": "chicken",
+        "amount": "150g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.3g",
+        "required": true
+      },
+      {
+        "id": "noodle",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "20g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "닭고기살은 작게 썰어 소금과 후춧\n가루를 살짝 뿌려 밑간을 하고 달걀을\n넣어 섞는다.",
+      "달걀을 넣어 섞은 닭고기 살에 녹말\n가루를 넣어 골고루 묻힌다.",
+      "국수는 각각 끓는 물에 살짝 데쳐 물기를\n빼놓는다.",
+      "물기가 빠진 국수는 튀김기름 170℃\n온도에서 각각 작은 채에 그대로 살짝\n튀겨 둥지를 만든 후 기름을 냅킨에\n빼 놓는다.",
+      "녹말가루를 묻힌 닭고기살도 튀김\n기름에 튀겨 기름을 빼 놓은 둥지국수\n위에 올린다.",
+      "냄비에 레몬과 설탕을 넣고 물을 넣어\n끓이다가 레몬은 건져 내고, 마늘과\n생강, 연유, 식초, 녹말을 풀어 넣고\n살짝 한 번 더 끓여 녹말소스를 만들어,\n튀겨진 닭고기 위에 올려 완성한다."
+    ],
+    "calories": 1028.5,
+    "servingSize": 1
+  },
+  {
+    "id": "api_506",
+    "title": "새우와스테이크",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00506_2.png",
+    "ingredients": [
+      {
+        "id": "shrimp",
+        "amount": "60g",
+        "required": true
+      },
+      {
+        "id": "beef",
+        "amount": "120g",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "10g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "새우는 꼬리를 자르고 내장을 제거\n한다.",
+      "스테이크 소고기는 소금과 로즈마리를\n뿌리고 후춧가루를 살짝 뿌려 놓는다.",
+      "아스파라거스는 팬에 기름 없이\n굽는다.",
+      "새송이와 가지는 길게 썰어 브로컬리와\n함께 기름 없이 팬에 살짝 구워 놓는다.",
+      "팬에 버터를 살짝 넣고 새우를 굽고,\n스테이크를 구워 접시에 담는다.",
+      "팬에 와인과 설탕을 넣고 끓이다가,\n당근, 양파와 토마토 마늘, 대파를 다져\n넣고 볶듯이 끓이다가 발사믹소스를\n넣고 한 번 더 졸인 소스를 스테이크\n위에 얹고, 브로컬리와 새송이, 가지,\n아스파라거스를 함께 놓아 완성한다."
+    ],
+    "calories": 508.4,
+    "servingSize": 1
+  },
+  {
+    "id": "api_507",
+    "title": "함초삼겹",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00507_2.png",
+    "ingredients": [
+      {
+        "id": "pork_belly",
+        "amount": "150g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.5g",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "20g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "통 삼겹살에 함초와 소금, 후춧가루를\n뿌려 숙성을 시킨다.",
+      "부추는 약 6cm 길이로 썰고, 양파는\n채를 썰어 놓고, 당근은 납작하게\n편으로 썰어 준비한다.",
+      "연두부는 잘게 다져 놓는다.",
+      "유자청에 쌈장과 설탕, 생크림을 넣어\n골고루 섞는다.",
+      "골고루 섞은 유자청에 다져 놓은\n연두부를 넣어 섞어 냄비에 넣고, 썰어\n놓은 양파와 당근을 넣어 은근히 끓여\n소스를 만들어 놓는다.",
+      "숙성시킨 통삼겹은 버터를 녹인 팬에\n살짝 구워 다시 오븐에서 20분 정도\n익힌 후 먹기 좋게 썰은 뒤, 접시에\n부추를 깔고 그 위에 구워진 삼겹을\n올리고 소스를 얹어 완성한다."
+    ],
+    "calories": 618.4,
+    "servingSize": 1
+  },
+  {
+    "id": "api_508",
+    "title": "햄버거스테이크",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00508_2.png",
+    "ingredients": [
+      {
+        "id": "pork_belly",
+        "amount": "60g",
+        "required": true
+      },
+      {
+        "id": "beef",
+        "amount": "60g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "돼지고기와 소고기를 섞어, 매실액을\n넣고 30분 정도 냉장고에서 숙성을\n시킨다.",
+      "숙성된 돼지고기와 소고기에 다진마늘,\n로즈마리, 빵가루, 후춧가루를 넣고\n골고루 섞는다.",
+      "파프리카는 반으로 잘라 그 안에 씨를\n수저를 이용해서 파낸다.",
+      "속을 파낸 파프리카에 양념한 고기를\n넣고, 꼭꼭 눌러 두툼하게 잘라 구워\n접시에 담는다.",
+      "양파는 입자있게 다져 팬에 기름을\n넣고 은근히 볶아 양파 향을 낸다.",
+      "볶아진 팬(⑤)에 준비한 플레인요거트와\n설탕, 매실액을 넣고 끓이다가, 식초와\n녹말을 넣고 한 번 더 끓여 소스를\n완성한다. 햄버거스테이트(④)에 소스를\n얹고, 어린잎을 올려 완성한다."
+    ],
+    "calories": 420.4,
+    "servingSize": 1
+  },
+  {
+    "id": "api_510",
+    "title": "냉토마토파스타",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00510_2.png",
+    "ingredients": [
+      {
+        "id": "onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "20g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "마늘은 곱게 다지고 양파, 당근,\n방울토마토는 입자있게 다진다.",
+      "토마토는 씨와 껍질을 제거하고 채를\n썰어놓는다.",
+      "브로컬리를 끓는 물에 데쳐 찬물에\n헹구어 작게 썰어 준비한다.",
+      "펜네는 끓는 물에 약 10분 정도\n삶아 건진다.",
+      "건져진 펜네는 올리브오일을 넣어\n무친 후 그릇에 담아놓는다.",
+      "냄비에 오일을 넣고 마늘과 양파를\n볶다가 당근과 방울토마토를 넣어\n볶으면서 육수를 붓고 설탕과 소금,\n레몬즙, 월계수잎을 넣고 끓인 뒤\n월계수잎을 건져내고, 차갑게 식힌 후\n그릇에 담겨 있는 펜네에 토마토채(②)와\n브로컬리(③)를 함께 넣어 담아 완성\n한다."
+    ],
+    "calories": 202.3,
+    "servingSize": 1
+  },
+  {
+    "id": "api_511",
+    "title": "닭고기또띠아",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00511_2.png",
+    "ingredients": [
+      {
+        "id": "chicken",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "milk",
+        "amount": "20g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "닭고기살은 끓는 물에 데쳐 손으로\n찢고, 느타리버섯도 데쳐 손으로 찢어\n준비한다.",
+      "사과는 씨를 제거하고 약 6cm 길이로\n채를 썰고, 오이와 파프리카도 같은\n길이로 채를 썰어 놓는다.",
+      "애호박은 반달로 썰어 식초에 살짝\n절여서 볶고, 양파는 채를 썰어 물에\n잠시 담가 놓는다.",
+      "아몬드는 우유를 넣어 갈아 준비한다.",
+      "머스터드에 올리고당을 넣어 잘 섞어\n준다.",
+      "또띠아를 팬에 기름 없이 굽고, 그 안에\n닭고기 살과 느타리버섯, 오이, 사과,\n파프리카와 호박을 넣어 속이 보이도록\n말아놓고, ④번과 ⑤번은 섞어서 소스를\n만들어 완성한다."
+    ],
+    "calories": 516.4,
+    "servingSize": 1
+  },
+  {
+    "id": "api_512",
+    "title": "닭고기스테이크",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00512_2.png",
+    "ingredients": [
+      {
+        "id": "chicken",
+        "amount": "120g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.5g",
+        "required": true
+      },
+      {
+        "id": "milk",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "cucumber",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "milk",
+        "amount": "50g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "닭고기살은 소금과 후춧가루, 생강즙과\n정종을 뿌린 후 우유를 살짝 발라 숙성을\n시킨다.",
+      "오이는 길게 껍질째 썰어 놓는다.",
+      "토마토는 반으로 잘라 편으로 썰어\n준비한다.",
+      "두부는 소창으로 물기를 꼭 짜 놓는다.",
+      "물기를 제거 시킨 두부에 흑임자를\n넣고 골고루 섞은 뒤 냄비에 넣고\n우유와 함께 은근히 끓여 속을 만든다.",
+      "팬에 토마토를 먼저 구워 접시에 담고,\n숙성된 닭고기를 구워 올린 뒤, 그 위에\n오이로 원형기둥을 만들고 구운\n닭고기를 다시 올려 완성한다."
+    ],
+    "calories": 222.4,
+    "servingSize": 1
+  },
+  {
+    "id": "api_513",
+    "title": "오징어순대",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00513_2.png",
+    "ingredients": [
+      {
+        "id": "squid",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "10g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "통오징어는 다리를 떼어내고 내장을\n제거시켜 통째로 깨끗이 씻어 준비\n한다.",
+      "양파와 당근, 부추, 생강은 입자있게\n썰고, 견과류는 다져 준비한다.",
+      "두부는 물기를 짠 후 수저로 으깨어\n놓는다.",
+      "잘게 썰은 오징어 다리와 썰어 놓은\n채소, 견과류(②), 곱게 다진 대파와\n마늘, 그리고 소금과 녹말가루를 두부\n(③)와 함께 골고루 섞어 순대속을\n만든다.",
+      "손질된 오징어 속 안에 준비한 속을\n채워 넣는다.",
+      "오징어순대에 레몬즙과 정종, 생강즙을\n섞어 바른 뒤 찜통에 김이 오르면\n오징어순대를 넣어 약 10분 정도 쪄서\n완성한다."
+    ],
+    "calories": 325.2,
+    "servingSize": 1
+  },
+  {
+    "id": "api_514",
+    "title": "연어차우더스프",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00514_2.png",
+    "ingredients": [
+      {
+        "id": "potato",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "3알",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "10g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "모시조개는 물에 소금을 넣고, 담그어\n해감을 한다.",
+      "연어는 사각지게 썰어 준비한다.",
+      "당근, 양파, 감자는 사각크기로 썰어\n놓고, 청피망은 채를 썰어 당근과\n비슷한 길이로 잘라둔다.",
+      "냄비에 버터와 밀가루를 넣고 볶다가\n채소를 넣어 같이 볶는다.",
+      "볶아지는 냄비에 모시조개와 육수를\n넣고 끓인다.",
+      "거품을 걷어내고, 월계수 잎과 통후추,\n통마늘을 넣고 끓이다가 연어와\n생크림을 넣어 한 소큼 끓으면 완성한다."
+    ],
+    "calories": 217.6,
+    "servingSize": 1
+  },
+  {
+    "id": "api_663",
+    "title": "시금치브로컬리 파스타",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00663_2.png",
+    "ingredients": [
+      {
+        "id": "shrimp",
+        "amount": "대하",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "100g",
+        "required": true
+      },
+      {
+        "id": "spinach",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.2g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "시금치와 브로콜리는 끓는 물에 소금을\n넣고 살짝 데친다.",
+      "데친 시금치, 브로콜리와 바질을\n믹서에 갈아 준다.",
+      "새우는 껍질을 벗겨 손질한다",
+      "끓는 물에 스파게티를 10분 정도 삶아\n건진다.",
+      "삶아진 스파게티는 팬에 올리브오일을\n넣고 볶는다.",
+      "갈아 놓은 시금치소스에 생크림을 넣고\n한소끔 끓이면서 볶은 파스타를 넣은\n뒤 새우를 올린다"
+    ],
+    "calories": 400.5,
+    "servingSize": 1
+  },
+  {
+    "id": "api_664",
+    "title": "야채찜을 곁들인 광어스테이크",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00664_2.png",
+    "ingredients": [
+      {
+        "id": "carrot",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "flatfish",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "광어는 비늘을 제거하고 포를 뜬다.",
+      "손질된 광어에 레몬과 청주를 뿌려\n숙성 시킨다.",
+      "저염간장에 레몬즙, 와사비,\n발사믹소스를 넣고 소스를 만든다.",
+      "당근, 애호박은 쿠퍼로 동글동글하게\n깎는다.",
+      "당근, 애호박, 콜리플라워는 김이 오른\n찜통에 5분 정도 쪄 낸다.",
+      "가지와 파프리카는 팬에 굽고,\n숙성시킨 광어도 팬에 구워 접시에\n담고 쪄 낸 야채를 담은 뒤 소스를\n올린다."
+    ],
+    "calories": 259,
+    "servingSize": 1
+  },
+  {
+    "id": "api_666",
+    "title": "오이냉국을 곁들인 오색쌈밥",
+    "description": "밥 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00666_2.png",
+    "ingredients": [
+      {
+        "id": "pork_belly",
+        "amount": "안심",
+        "required": true
+      },
+      {
+        "id": "rice",
+        "amount": "200g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "1/2개",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "cucumber",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "radish",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "egg",
+        "amount": "1개",
+        "required": true
+      },
+      {
+        "id": "gochujang",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.3g",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "gochugaru",
+        "amount": "10g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "쌀은 깨끗이 씻어 30분 정도 불려 밥을\n짓는다.",
+      "달걀을 풀어 소금을 넣고 지단을\n만들어 채썬다.",
+      "도라지, 애호박, 양파, 홍고추는 채를\n썰어 소금에 살짝 절여 볶고, 청포묵은\n채를 썰어 참기름에 버무린다.",
+      "돼지 안심은 소금, 후춧가루로 양념 한\n뒤 팬에 익힌다.",
+      "찬물에 식초, 설탕, 소금을 넣고 채 썬\n오이를 넣어 냉국을 만든다.",
+      "고추장에 고춧가루를 섞어 쌈밥장을\n만들고, 라이스페이퍼를 물에 담궈\n건져 밥과 준비한 야채, 달걀지단,\n쌈무, 쌈밥장을 올려 돌돌 말고 데친\n미나리로 묶는다."
+    ],
+    "calories": 379.4,
+    "servingSize": 1
+  },
+  {
+    "id": "api_667",
+    "title": "카레탄두리치킨과 닭가슴살냉채",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00667_2.png",
+    "ingredients": [
+      {
+        "id": "chicken",
+        "amount": "1마리",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "3개",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "cucumber",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "50g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "닭은 살을 발라 소금, 후춧가루로\n밑간을 한다.",
+      "오곡을 불려 밥을 짓는다.",
+      "오이, 아스파라거스, 당근, 양파는\n길이대로 채썬다.",
+      "닭살에 지어 놓은 오곡밥을 넣는다",
+      "오곡밥을 넣은 닭살에 카레가루를\n골고루 묻힌다.",
+      "팬에 기름을 두르고 5번을 올려 은근히\n익혀 접시에 담고, 썰어 놓은 야채를\n닭살위에 담은 뒤 디종머스터드를\n올린다."
+    ],
+    "calories": 304.9,
+    "servingSize": 1
+  },
+  {
+    "id": "api_668",
+    "title": "컬리플라워소스 광어스테이크",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00668_2.png",
+    "ingredients": [
+      {
+        "id": "potato",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "spinach",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "1/4개",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "milk",
+        "amount": "200g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.2g",
+        "required": true
+      },
+      {
+        "id": "flatfish",
+        "amount": "적당량",
+        "required": true
+      },
+      {
+        "id": "cauliflower",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "광어는 비늘을 벗기고 포를 떠 소금,\n후춧가루를 뿌린다.",
+      "콜리플라워는 팬에 볶는다.",
+      "감자와 양파를 썰어 콜리플라워와 함께\n볶는다.",
+      "?번에 우유를 넣는다.",
+      "?를 믹서로 곱게 간 뒤, 끓인다.",
+      "가지, 당근. 단호박은 둥근 모양으로\n만들어 팬에 시금치와 함께 익히고,\n광어도 팬에 구워 접시에 담아\n컬리플라워 소스를 올린다."
+    ],
+    "calories": 99.8,
+    "servingSize": 1
+  },
+  {
+    "id": "api_669",
+    "title": "콜라비오미자 물김치",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00669_2.png",
+    "ingredients": [
+      {
+        "id": "radish",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "shrimp",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.3g",
+        "required": true
+      },
+      {
+        "id": "kimchi",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "다시마와 건새우를 넣고 은근히 끓여\n차갑게 식힌 뒤 육수를 만든다.",
+      "차갑게 식힌 육수는 체에 걸려내고\n오미자를 넣고 소금으로 간을 한다.",
+      "콜라비, 피망, 파프리카는 납작하게\n썬다.",
+      "육수는 체에 거른다",
+      "오미자를 넣고 소금으로 간을 한다.",
+      "통에 썰어놓은 야채와 무화과를 담고\n?를 넣는다."
+    ],
+    "calories": 71.6,
+    "servingSize": 1
+  },
+  {
+    "id": "api_670",
+    "title": "크림소스치킨롤",
+    "description": "일품 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00670_2.png",
+    "ingredients": [
+      {
+        "id": "chicken",
+        "amount": "가슴살",
+        "required": true
+      },
+      {
+        "id": "shrimp",
+        "amount": "대하",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "3개",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "1개",
+        "required": true
+      },
+      {
+        "id": "cheese",
+        "amount": "1장",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.2g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "닭가슴살은 포를 떠 소금과 후춧가루로\n밑간을 한다.",
+      "새우는 껍질을 벗겨 손질한다.",
+      "베이컨은 끓는 물에 데친다.",
+      "마늘과 바질은 다진 뒤 버터에 섞는다.",
+      "닭가슴살에 베이컨과 다진 버터를\n올린다.",
+      "냄비에 마늘과 바질을 섞은 버터,\n치즈를 넣고 끓이다가 ?를 놓고\n졸인다."
+    ],
+    "calories": 401,
+    "servingSize": 1
+  },
+  {
+    "id": "api_671",
+    "title": "표고버섯 감자찜",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00671_2.png",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "3개",
+        "required": true
+      },
+      {
+        "id": "potato",
+        "amount": "200g",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "30g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "표고버섯은 따뜻한 물에 불린다.",
+      "감자는 강판에 간다.",
+      "고수는 잘게 다진다.",
+      "당근은 곱게 다지고, 양파와 홍고추도\n다진다.",
+      "감자에 다진 당근과 양파, 홍고추를\n섞는다.",
+      "불린 표고버섯은 기둥을 자르고 바닥에\n녹말가루를 묻혀 ?번을 넣고 김이\n오른 찜통에 약 10분 정도 찐다."
+    ],
+    "calories": 176.8,
+    "servingSize": 1
+  },
+  {
+    "id": "api_672",
+    "title": "해물애호박 전병말이",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00672_2.png",
+    "ingredients": [
+      {
+        "id": "shrimp",
+        "amount": "3마리",
+        "required": true
+      },
+      {
+        "id": "squid",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "1/2개",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "rice",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "sugar",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.2g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "새우는 껍질을 벗겨 다진다.",
+      "오징어는 소금으로 껍질을 벗겨\n다진다.",
+      "애호박, 깻잎, 대추는 곱게 채썬다.",
+      "채썬 애호박과 깻잎은 소금에 살짝\n절인 뒤 물기를 짠다.",
+      "밀가루에 찹쌀가루, 애호박, 깻잎,\n대추채와 다진 새우, 오징어를 넣고\n팬에 기름을 둘러 전병을 만든 뒤 돌돌\n말아 썰어 접시에 담는다.",
+      "저염간장과 식초, 설탕을 넣고 소스를\n만든다."
+    ],
+    "calories": 408.4,
+    "servingSize": 1
+  },
+  {
+    "id": "api_673",
+    "title": "찬밥이용닭죽",
+    "description": "밥 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/20141118/20141118102057_1416273657171.jpg",
+    "ingredients": [
+      {
+        "id": "rice",
+        "amount": "60g",
+        "required": true
+      },
+      {
+        "id": "chicken",
+        "amount": "80g",
+        "required": true
+      },
+      {
+        "id": "potato",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "carrot",
+        "amount": "8g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.75g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "닭다리는 기름기를 제거하고 냄비에 물 3컵 반을 부어 통마늘과 삶아 육수를 만든다.",
+      "삶은 마늘을 체에 걸러 으깬 뒤 다시 육수에 넣는다.",
+      "닭 육수 2컵 반에 찬밥을 넣고 밥알이 무르도록 끓인다.",
+      "삶은 닭다리 살을 발라 잘게 찢어 넣는다.",
+      "감자, 양파, 당근, 부추는 잘게 다진다.",
+      "4에 5를 넣고 끓인 뒤 소금, 후춧가루로 간 한다."
+    ],
+    "calories": 234.5,
+    "servingSize": 1
+  },
+  {
+    "id": "api_674",
+    "title": "감자느타리버섯국",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/20141118/20141118102104_1416273664244.jpg",
+    "ingredients": [
+      {
+        "id": "potato",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "tofu",
+        "amount": "8g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "anchovy",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "3g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.5g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "물 1컵 반에 국멸치와 건다시마를 넣어 멸치다시마국물을 만든다.",
+      "국물을 우린 다시마는 채썬다.",
+      "느타리버섯은 끓는 물에 데친 후 찢는다.",
+      "감자와 두부는 3~4cm 가량으로 채를 썰고 홍고추와 대파는 어슷썬다.",
+      "멸치다시마국물 1컵에 감자를 넣고 끓인 뒤 느타리버섯을 넣어 한소끔 끓이고 두부, 파, 다진 마늘, 홍고추를 넣고 소금으로 간 한다.",
+      "채 썬 다시마를 고명으로 얹는다"
+    ],
+    "calories": 53.3,
+    "servingSize": 1
+  },
+  {
+    "id": "api_677",
+    "title": "민어매운탕",
+    "description": "국&찌개 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/20141118/20141118102107_1416273667490.jpg",
+    "ingredients": [
+      {
+        "id": "beef",
+        "amount": "양지15g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "1.25g",
+        "required": true
+      },
+      {
+        "id": "pepper",
+        "amount": "0.25g",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "0.5g",
+        "required": true
+      },
+      {
+        "id": "radish",
+        "amount": "40g",
+        "required": true
+      },
+      {
+        "id": "zucchini",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "20g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "salt",
+        "amount": "0.5g - 양념장 : 간 홍고추 10g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "2g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "2.5g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "2.5g",
+        "required": true
+      },
+      {
+        "id": "gochugaru",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "gochugaru",
+        "amount": "1.25g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "양념장 재료를 모두 섞어 냉장고에서 하루 숙성시킨다.",
+      "민어는 비늘을 긁고 지느러미, 내장을 제거하여 흐르는 물에 씻어 5cm 길이로 토막 낸다.",
+      "소고기는 채 썰어 다진 마늘, 후추로 밑간한다.",
+      "무는 나박 썰기, 애호박은 반달 썰기, 애느타리는 한입 크기로 찢고 고추와 대파는 어슷 썬다.",
+      "냄비에 참기름을 두르고 소고기를 볶다가 물 1컵 반과 무를 넣고 양념장을 풀어 끓인다.",
+      "무가 반 정도 익으면 민어와 채소를 넣고 한소끔 끓인 뒤 어슷 썬 대파와 생강즙을 넣어 살짝 끓이고 소금 간하고 쑥갓을 넣는다."
+    ],
+    "calories": 147.7,
+    "servingSize": 1
+  },
+  {
+    "id": "api_297",
+    "title": "아몬드치킨볼",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00297_2.png",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "chicken",
+        "amount": "30g",
+        "required": true
+      },
+      {
+        "id": "chicken",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "milk",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "onion",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "mushroom",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "garlic",
+        "amount": "5g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "냄비에 육수 재료와 물(400g)을\n넣고 푹 끓인다.",
+      "양송이버섯을 잘게 다진 뒤 버터에\n살짝 볶아 건져 한김 식힌 뒤\n닭다리살과 닭가슴살, 아몬드를 다져\n볶은 양송이버섯과 섞어 동그랗게\n빚어 밀가루옷을 입힌다.",
+      "식용유(15g)를 두른 팬에서 겉을\n노릇하게 굽는다.",
+      "육수(150g), 우유, 들깻가루를 끓여\n소스를 만든 뒤 아몬드 치킨볼과\n브로콜리를 넣고 졸인다.",
+      "마늘은 편 썰어 낮은 온도의\n식용유에서 바삭하게 튀긴다.",
+      "접시에 아몬드치킨볼을 담고\n튀긴 마늘을 얹어 마무리한다."
+    ],
+    "calories": 210.7,
+    "servingSize": 1
+  },
+  {
+    "id": "api_298",
+    "title": "양배추롤",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00298_2.png",
+    "ingredients": [
+      {
+        "id": "rice",
+        "amount": "50g",
+        "required": true
+      },
+      {
+        "id": "shrimp",
+        "amount": "15g",
+        "required": true
+      },
+      {
+        "id": "soy_sauce",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "sesame_oil",
+        "amount": "5g",
+        "required": true
+      },
+      {
+        "id": "cabbage",
+        "amount": "적당량",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "현미와 쌀을 씻어 30분간 불린 뒤\n물기를 빼고, 다시마를\n우려낸 물(불린 쌀 동량)로 밥을 지어\n식힌 후 새우가루를 넣어 섞는다.",
+      "양배추는 15~20분 정도 쪄서\n준비한다.",
+      "얇게 저민 쇠고기를 팬에 올려\n익힌다.",
+      "달래는 0.5㎝ 정도로 송송 썰어\n간장, 참기름에 버무린다.",
+      "김발에 양배추, 고기, 밥 순서대로\n올려 돌돌 말아 양배추롤을 만든다.",
+      "롤을 한입 크기로 썰어 담고\n달래 무침을 얹은 뒤 송송 썬\n붉은 고추를 올려 마무리한다."
+    ],
+    "calories": 227.8,
+    "servingSize": 1
+  },
+  {
+    "id": "api_299",
+    "title": "생선베이컨말이",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00299_2.png",
+    "ingredients": [
+      {
+        "id": "green_onion",
+        "amount": "10g",
+        "required": true
+      },
+      {
+        "id": "spinach",
+        "amount": "15g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "피망, 파프리카는 5㎝ 길이로 채\n썰고, 시금치는 갈아둔다.",
+      "베이컨 위에 동태포를 올리고\n그 위에 피망과 파프리카를 올려\n돌돌 만다.",
+      "저염버터에 생크림을 넣어서 농도를\n맞춘 후 갈아놓은 시금치를 넣어\n시금치소스를 만든다.",
+      "달군 팬에 흰살생선베이컨말이를\n올려 완전히 익힌다.",
+      "접시에 담아 시금치소스를\n곁들인 뒤 새싹채소로 장식하여\n마무리한다."
+    ],
+    "calories": 105.6,
+    "servingSize": 1
+  },
+  {
+    "id": "api_301",
+    "title": "퀴노아닭가슴살샐러드",
+    "description": "반찬 요리",
+    "cookingTimeMinutes": 30,
+    "difficulty": "Medium",
+    "imageUrl": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00301_2.png",
+    "ingredients": [
+      {
+        "id": "chicken",
+        "amount": "80g",
+        "required": true
+      },
+      {
+        "id": "potato",
+        "amount": "27g",
+        "required": true
+      },
+      {
+        "id": "green_onion",
+        "amount": "30g",
+        "required": true
+      }
+    ],
+    "instructions": [
+      "수박껍질은 흰 부분만 사용해\n작게 깍둑 썰고, 토마토는 껍질을\n벗겨 속씨를 제거해 작게 깍둑썬다.",
+      "닭가슴살은 수비드해 익힌 뒤\n한입 크기로 썬다.",
+      "감자, 가지, 양파, 피망,\n아스파라거스는 깍둑 썬 뒤\n닭가슴살과 함께 볶는다.",
+      "팬에 복분자를 넣고 살짝 졸인 뒤\n레몬즙을 섞어 복분자소스를 만든다.",
+      "접시에 퀴노아를 두른 후\n닭가슴살과 감자, 가지, 양파, 피망,\n아스파라거스를 올리면서 중간\n중간에 토마토와 수박,\n리코타치즈를 넣는다.",
+      "맨 위에 퀴노아를 살짝 올려주고\n양상추, 플레인 요구르트,\n어린잎채소를 얹어 마무리한다."
+    ],
+    "calories": 173.5,
+    "servingSize": 1
+  }
+]

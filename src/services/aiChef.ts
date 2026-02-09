@@ -80,6 +80,9 @@ export async function generateRecipe(ingredients: string[]): Promise<Recipe | nu
 
         const recipeData = JSON.parse(cleanText);
 
+        // User provided specific image: "ai_chef_special.png"
+        recipeData.imageUrl = "/ai_chef_special.png";
+
         // Ensure ID is unique
         recipeData.id = `ai_${Date.now()}`;
 
