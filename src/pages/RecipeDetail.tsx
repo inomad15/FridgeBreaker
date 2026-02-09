@@ -77,21 +77,7 @@ export default function RecipeDetail() {
                                 <p className="text-base md:text-lg font-bold">{recipe.servingSize || 1}인분</p>
                             </div>
                         </div>
-                        {/* Row 2: White Background */}
-                        <div className="grid grid-cols-3 bg-white divide-x divide-orange-100 text-center">
-                            <div className="p-3 flex flex-col items-center justify-center">
-                                <p className="text-xs font-semibold text-orange-600">탄수화물</p>
-                                <p className="text-base md:text-lg font-bold text-slate-800">{recipe.carbohydrates || '-'}g</p>
-                            </div>
-                            <div className="p-3 flex flex-col items-center justify-center">
-                                <p className="text-xs font-semibold text-orange-600">지방</p>
-                                <p className="text-base md:text-lg font-bold text-slate-800">{recipe.fat || '-'}g</p>
-                            </div>
-                            <div className="p-3 flex flex-col items-center justify-center">
-                                <p className="text-xs font-semibold text-orange-600">단백질</p>
-                                <p className="text-base md:text-lg font-bold text-slate-800">{recipe.protein || '-'}g</p>
-                            </div>
-                        </div>
+
                     </div>
 
                     {/* Ingredients */}

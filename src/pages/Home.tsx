@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Search, ChefHat, Filter, Info, Check, X, ArrowRight, ShoppingCart, Carrot, Fish, Wheat, Milk, Utensils, Beef, Sparkles, Loader2 } from 'lucide-react';
+import { Search, ChefHat, Filter, Info, Check, X, ArrowRight, ShoppingCart, Carrot, Fish, Wheat, Milk, Utensils, Beef, Sparkles, Loader2, RotateCcw } from 'lucide-react';
 import { generateRecipe } from '../services/aiChef';
 import { useNavigate } from 'react-router-dom';
 import { INGREDIENTS, RECIPES, CATEGORY_LABELS } from '../constants';
@@ -457,7 +457,132 @@ export default function Home() {
             {/* ... Header ... */}
 
             <main className="flex-1 max-w-7xl mx-auto w-full p-4 md:p-6 lg:p-8 flex flex-col md:flex-row gap-8">
-                {/* ... Left Column ... */}
+                {/* Left Column: Ingredient Selection */}
+                <section className={`
+                    w-full md:w-80 lg:w-96 flex-col gap-6
+                    ${showMobileResults ? 'hidden md:flex' : 'flex'}
+                `}>
+                    <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 sticky top-6">
+                        <div className="flex items-center justify-between mb-6">
+                            <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
+                                <span className="bg-orange-100 text-orange-600 p-1.5 rounded-lg">
+                                    <Carrot className="w-5 h-5" />
+                                </span>
+                                재료 선택
+                            </h2>
+                            <div className="text-sm font-medium text-slate-500">
+                                <span className="text-orange-600 font-bold">{selectedIngredients.size}</span>개 선택됨
+                            </div>
+                        </div>
+
+                        {/* Search Ingredients */}
+                        <div className="relative mb-6">
+                            <div className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none">
+                                <Search className="w-4 h-4 text-slate-400" />
+                            </div>
+                            <input
+                                type="text"
+                                placeholder="재료 검색 (예: 계란, 김치)"
+                                className="w-full pl-9 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:ring-2 focus:ring-orange-500 focus:bg-white transition-all outline-none"
+                                value={searchTerm}
+                                onChange={(e) => setSearchTerm(e.target.value)}
+                            />
+                        </div>
+
+                        {/* Essentials Toggle */}
+                        <div className="flex items-center justify-between bg-slate-50 p-3 rounded-xl mb-6">
+                            <div className="flex items-center gap-2">
+                                <div className="bg-white p-1.5 rounded-lg shadow-sm text-slate-400">
+                                    <Info className="w-4 h-4" />
+                                </div>
+                                <div className="flex flex-col">
+                                    <span className="text-sm font-bold text-slate-700">기본 양념 포함</span>
+                                    <span className="text-[10px] text-slate-400">소금, 설탕, 간장 등</span>
+                                </div>
+                            </div>
+                            <button
+                                onClick={() => setHasEssentials(!hasEssentials)}
+                                className={`
+                                    relative w-11 h-6 rounded-full transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
+                                    ${hasEssentials ? 'bg-orange-500' : 'bg-slate-200'}
+                                `}
+                            >
+                                <span
+                                    className={`
+                                        inline-block w-4 h-4 transform bg-white rounded-full shadow transition-transform duration-200 ease-in-out mt-1 ml-1
+                                        ${hasEssentials ? 'translate-x-5' : 'translate-x-0'}
+                                    `}
+                                />
+                            </button>
+                        </div>
+
+                        {/* Category Tabs */}
+                        <CategoryTabs
+                            categories={['veggie', 'meat', 'seafood', 'grain', 'dairy', 'seasoning']}
+                            activeCategory={activeCategory}
+                            onSelect={setActiveCategory}
+                        />
+
+                        {/* Ingredient Grid */}
+                        <div className="h-[calc(100vh-24rem)] overflow-y-auto pr-2 custom-scrollbar">
+                            {activeCategory === 'all' ? (
+                                Object.entries(ingredientsByCategory).map(([cat, ingredients]) => {
+                                    if (ingredients.length === 0) return null;
+                                    return (
+                                        <div key={cat} className="mb-6">
+                                            <h3 className="text-sm font-bold text-slate-400 mb-3 px-1 uppercase tracking-wider flex items-center gap-2">
+                                                {CATEGORY_ICONS[cat]}
+                                                {CATEGORY_LABELS[cat]}
+                                            </h3>
+                                            <IngredientGrid
+                                                ingredients={ingredients}
+                                                selectedIds={selectedIngredients}
+                                                onToggle={toggleIngredient}
+                                                onAddCustom={cat === 'veggie' || cat === 'meat' ? (name) => handleAddCustomIngredient(name, cat) : undefined}
+                                            />
+                                        </div>
+                                    );
+                                })
+                            ) : (
+                                <div>
+                                    <h3 className="text-sm font-bold text-slate-400 mb-3 px-1 uppercase tracking-wider flex items-center gap-2">
+                                        {CATEGORY_ICONS[activeCategory]}
+                                        {CATEGORY_LABELS[activeCategory]}
+                                    </h3>
+                                    <IngredientGrid
+                                        ingredients={ingredientsByCategory[activeCategory] || []}
+                                        selectedIds={selectedIngredients}
+                                        onToggle={toggleIngredient}
+                                        onAddCustom={(name) => handleAddCustomIngredient(name, activeCategory)}
+                                    />
+                                </div>
+                            )}
+
+                            {/* Show message if no ingredients match search */}
+                            {allIngredientsList.length > 0 &&
+                                Object.values(ingredientsByCategory).flat().length === 0 && (
+                                    <div className="text-center py-10 text-slate-400">
+                                        <p>검색된 재료가 없습니다.</p>
+                                    </div>
+                                )}
+                        </div>
+
+                        {/* Selection Summary (Reset) */}
+                        {selectedIngredients.size > 0 && (
+                            <div className="mt-4 pt-4 border-t border-slate-100 flex justify-between items-center animate-fade-in">
+                                <span className="text-xs font-semibold text-slate-500">
+                                    선택 초기화
+                                </span>
+                                <button
+                                    onClick={resetSelection}
+                                    className="p-2 hover:bg-slate-100 rounded-lg text-slate-400 hover:text-red-500 transition-colors"
+                                >
+                                    <RotateCcw className="w-4 h-4" />
+                                </button>
+                            </div>
+                        )}
+                    </div>
+                </section>
 
                 {/* Right Column: Recipe Results */}
                 <section className={`

@@ -29,9 +29,6 @@ export interface Recipe {
   category?: string; // Added for filtering
   calories?: number;
   servingSize?: number; // e.g. 2 people
-  carbohydrates?: number; // g
-  fat?: number; // g
-  protein?: number; // g
 }
 
 export interface MatchResult {

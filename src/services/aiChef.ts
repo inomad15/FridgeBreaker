@@ -116,9 +116,7 @@ export async function generateRecipe(ingredients: string[]): Promise<Recipe | nu
                     ],
                     calories: 500,
                     servingSize: 1,
-                    carbohydrates: 0,
-                    fat: 0,
-                    protein: 0
+
                 });
             }, 2000);
         });

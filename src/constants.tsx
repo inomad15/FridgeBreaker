@@ -94,9 +94,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 450,
     servingSize: 2,
-    carbohydrates: 15,
-    fat: 25,
-    protein: 30,
   },
   {
     id: 'doenjang_stew',
@@ -124,9 +121,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 320,
     servingSize: 2,
-    carbohydrates: 20,
-    fat: 12,
-    protein: 18,
   },
   {
     id: 'tteokbokki',
@@ -152,9 +146,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 650,
     servingSize: 2,
-    carbohydrates: 120,
-    fat: 8,
-    protein: 14,
   },
   {
     id: 'spam_mayo',
@@ -180,9 +171,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 780,
     servingSize: 1,
-    carbohydrates: 90,
-    fat: 35,
-    protein: 22,
   },
   {
     id: 'egg_roll',
@@ -206,9 +194,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 280,
     servingSize: 2,
-    carbohydrates: 2,
-    fat: 20,
-    protein: 24,
   },
   {
     id: 'bibimbap',
@@ -234,9 +219,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 550,
     servingSize: 1,
-    carbohydrates: 85,
-    fat: 15,
-    protein: 18,
   },
   {
     id: 'tuna_kimchi_stew',
@@ -260,9 +242,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 420,
     servingSize: 2,
-    carbohydrates: 12,
-    fat: 22,
-    protein: 35,
   },
   {
     id: 'soyu_tteokbokki',
@@ -289,9 +268,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 580,
     servingSize: 2,
-    carbohydrates: 95,
-    fat: 14,
-    protein: 20,
   },
   {
     id: 'strawberry_salad',
@@ -313,9 +289,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 150,
     servingSize: 2,
-    carbohydrates: 20,
-    fat: 5,
-    protein: 3,
   },
 
   {
@@ -340,9 +313,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 320,
     servingSize: 1,
-    carbohydrates: 0,
-    fat: 15,
-    protein: 45,
   },
   {
     id: 'grilled_mackerel_yuja',
@@ -365,9 +335,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 450,
     servingSize: 2,
-    carbohydrates: 15,
-    fat: 25,
-    protein: 35,
   },
   {
     id: 'smoked_duck_salad',
@@ -390,9 +357,6 @@ export const RECIPES: Recipe[] = [
     ],
     calories: 320,
     servingSize: 2,
-    carbohydrates: 10,
-    fat: 25,
-    protein: 20,
   },
 ];
 
