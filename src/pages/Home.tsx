@@ -340,14 +340,18 @@ export default function Home() {
             INGREDIENTS.filter(i => i.isEssential).forEach(i => effectiveOwned.add(i.id));
         }
 
+        // Define "Main Categories" that define a dish
+        const MAIN_CATEGORIES = new Set(['meat', 'seafood', 'grain']);
+        // Specific ingredients that can stand alone as a main dish base even if veggie
+        const MAIN_VEGGIES = new Set(['kimchi', 'potato', 'tofu', 'cabbage', 'radish']);
+
         RECIPES.forEach(recipe => {
             // --- FILTER LOGIC ---
-            // 1. Text Search (Title or Ingredients or Description)
+            // 1. Text Search (Title or Ingredients or Description) -> OVERRIDES strict matching
             if (recipeSearchTerm) {
                 const term = recipeSearchTerm.toLowerCase();
                 const textMatch =
                     recipe.title.toLowerCase().includes(term) ||
-                    // recipe.description.toLowerCase().includes(term) || // Description might be too broad?
                     recipe.ingredients.some(i => i.id.toLowerCase().includes(term));
 
                 if (!textMatch) return;
@@ -355,18 +359,16 @@ export default function Home() {
 
             // 2. Category Filter
             if (selectedRecipeCategory !== 'All') {
-                // Approximate matching for categories like "Main Dish (Meat)" vs "Main Dish"
-                if (recipe.category !== selectedRecipeCategory) {
-                    // Allow lenient matching? E.g. "Main Dish" matches "Main Dish (Meat)"?
-                    // For now, strict match or "Main Dish" sub-matching
-                    if (!recipe.category?.startsWith(selectedRecipeCategory)) return;
-                }
+                if (recipe.category !== selectedRecipeCategory && !recipe.category?.startsWith(selectedRecipeCategory)) return;
             }
 
             let matchCount = 0;
             let totalRequired = 0;
             let nonEssentialMatchCount = 0;
             let nonEssentialTotalCount = 0;
+
+            let hasMainIngredientMatch = false; // Does the user have the "Main" item for this dish?
+
             const owned: string[] = [];
             const missing: string[] = [];
 
@@ -374,10 +376,17 @@ export default function Home() {
                 const ingDef = ingredientMap.get(ri.id);
                 const isEssential = ingDef?.isEssential || false;
 
+                // Check if this ingredient is a "Main" component of the dish
+                const isMain = ingDef && (
+                    MAIN_CATEGORIES.has(ingDef.category) ||
+                    MAIN_VEGGIES.has(ingDef.id)
+                );
+
                 if (effectiveOwned.has(ri.id)) {
                     matchCount++;
                     owned.push(ri.id);
                     if (!isEssential) nonEssentialMatchCount++;
+                    if (isMain) hasMainIngredientMatch = true;
                 } else {
                     missing.push(ri.id);
                 }
@@ -386,14 +395,29 @@ export default function Home() {
                 totalRequired++;
             });
 
-            if (nonEssentialTotalCount > 0 && nonEssentialMatchCount === 0) {
-                // Even if filtered by name, if ingredients don't match at all, should we show it?
-                // User might be searching for "Kimchi Stew" specifically even if they don't have ingredients.
-                // DECISION: If user searches explicitly, show the recipe even if 0% match, 
-                // BUT sort it lower.
-                // However, the current logic calculates percentage and filters out 0%.
-                // Let's relax the 0% filter IF a search term is present.
-                if (!recipeSearchTerm) return;
+            // --- STRICT FILTERING RULE ---
+            // If user is NOT searching by name, enforce strict matching.
+            if (!recipeSearchTerm) {
+                // Rule 1: "Main Ingredient Rule"
+                // If the recipe *requires* Main Ingredients (Meat/Seafood/Grain/Key Veggie),
+                // the user MUST have at least one of them.
+                const recipeMainIngredients = recipe.ingredients.filter(ri => {
+                    const def = ingredientMap.get(ri.id);
+                    return def && (MAIN_CATEGORIES.has(def.category) || MAIN_VEGGIES.has(def.id));
+                });
+
+                if (recipeMainIngredients.length > 0 && !hasMainIngredientMatch) {
+                    return; // Recipe needs a main item (e.g. Pork), but user doesn't have it. SKIP.
+                }
+
+                // Rule 2: Fallback for Side Dishes or Simple Recipes (No defined "Main")
+                // If recipe has no main ingredients (e.g. Seasoned Spinach), or user has the main ingredient,
+                // we still want to ensure it's not a "garbage match" (e.g. only Salt matches).
+                // Require at least 30% of non-essential ingredients to match.
+                if (nonEssentialTotalCount > 0) {
+                    const matchRate = nonEssentialMatchCount / nonEssentialTotalCount;
+                    if (matchRate < 0.3) return;
+                }
             }
 
             let percentage = 0;
@@ -403,7 +427,6 @@ export default function Home() {
                 percentage = (matchCount / totalRequired) * 100;
             }
 
-            // Filter out 0% matches unless searching
             if (percentage > 0 || recipeSearchTerm) {
                 results.push({
                     recipe,
@@ -416,7 +439,7 @@ export default function Home() {
         });
 
         return results.sort((a, b) => {
-            // If searching, exact title match gets priority
+            // Priority: Search Match > Match Percentage > Missing Count
             if (recipeSearchTerm) {
                 const aTitle = a.recipe.title.includes(recipeSearchTerm);
                 const bTitle = b.recipe.title.includes(recipeSearchTerm);
@@ -425,7 +448,7 @@ export default function Home() {
             }
             if (a.matchPercentage !== b.matchPercentage) return b.matchPercentage - a.matchPercentage;
             return a.missingCount - b.missingCount;
-        }).slice(0, 50); // Increased limit for search results
+        }).slice(0, 50);
     }, [selectedIngredients, hasEssentials, ingredientMap, recipeSearchTerm, selectedRecipeCategory]);
 
     const toggleIngredient = (id: string) => {
@@ -544,7 +567,7 @@ export default function Home() {
                         {/* Ingredient Grid */}
                         <div className="h-[calc(100vh-24rem)] overflow-y-auto pr-2 custom-scrollbar">
                             {activeCategory === 'all' ? (
-                                Object.entries(ingredientsByCategory).map(([cat, ingredients]) => {
+                                Object.entries(ingredientsByCategory).map(([cat, ingredients]: [string, Ingredient[]]) => {
                                     if (ingredients.length === 0) return null;
                                     return (
                                         <div key={cat} className="mb-6">
@@ -578,7 +601,7 @@ export default function Home() {
 
                             {/* Show message if no ingredients match search */}
                             {allIngredientsList.length > 0 &&
-                                Object.values(ingredientsByCategory).flat().length === 0 && (
+                                filteredIngredients.length === 0 && (
                                     <div className="text-center py-10 text-slate-400">
                                         <p>검색된 재료가 없습니다.</p>
                                     </div>
