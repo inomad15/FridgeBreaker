@@ -26,6 +26,7 @@ export interface Recipe {
   imageUrl: string;
   ingredients: RecipeIngredient[];
   instructions?: string[]; // Step-by-step instructions
+  category?: string; // Added for filtering
   calories?: number;
   servingSize?: number; // e.g. 2 people
   carbohydrates?: number; // g
