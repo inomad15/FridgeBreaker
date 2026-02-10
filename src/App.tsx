@@ -7,11 +7,13 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Guide from './pages/Guide';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 export default function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen flex flex-col">
+        <Header />
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
