@@ -10,8 +10,8 @@ export const INGREDIENTS: Ingredient[] = [
   { id: 'carrot', name: '당근', category: 'veggie', emoji: '🥕' },
   { id: 'zucchini', name: '애호박', category: 'veggie', emoji: '🥒' },
   { id: 'bean_sprout', name: '콩나물', category: 'veggie', emoji: '🌱', imageUrl: '/bean_sprout_icon.png' },
-  { id: 'tofu', name: '두부', category: 'veggie', isPopular: true, emoji: '🧊' },
-  { id: 'radish', name: '무', category: 'veggie', emoji: '🥔' }, // Alternative if no exact radish emoji
+  { id: 'tofu', name: '두부', category: 'veggie', isPopular: true, emoji: '⬜' },
+  { id: 'radish', name: '무', category: 'veggie', emoji: '🥔' },
   { id: 'mushroom', name: '버섯', category: 'veggie', emoji: '🍄' },
   { id: 'cucumber', name: '오이', category: 'veggie', emoji: '🥒' },
   { id: 'spinach', name: '시금치', category: 'veggie', emoji: '🌿' },
@@ -24,12 +24,12 @@ export const INGREDIENTS: Ingredient[] = [
   // Meat
   { id: 'pork_belly', name: '돼지고기(삼겹살)', category: 'meat', emoji: '🥓' },
   { id: 'pork_shoulder', name: '돼지고기(목살/찌개용)', category: 'meat', emoji: '🥩' },
-  { id: 'beef', name: '소고기', category: 'meat', emoji: '🍖' },
+  { id: 'beef', name: '소고기', category: 'meat', emoji: '🥩' },
   { id: 'spam', name: '스팸/햄', category: 'meat', emoji: '🥫' },
-  { id: 'smoked_duck', name: '훈제오리', category: 'meat', emoji: '🦆' },
+  { id: 'smoked_duck', name: '훈제오리', category: 'meat', emoji: '🍖' },
   { id: 'egg', name: '계란', category: 'meat', isPopular: true, emoji: '🥚' },
   { id: 'chicken', name: '닭고기', category: 'meat', emoji: '🍗' },
-  { id: 'minced_pork', name: '다짐육(돼지)', category: 'meat', emoji: '🥩' },
+  { id: 'minced_pork', name: '다짐육(돼지)', category: 'meat', emoji: '🍖' },
 
   // Seafood
   { id: 'tuna_can', name: '참치캔', category: 'seafood', isPopular: true, emoji: '🐟', imageUrl: '/canned_tuna_icon.png' },
@@ -44,7 +44,7 @@ export const INGREDIENTS: Ingredient[] = [
   { id: 'gochujang', name: '고추장', category: 'seasoning', isEssential: true, emoji: '🌶️' },
   { id: 'soy_sauce', name: '간장', category: 'seasoning', isEssential: true, emoji: '🍶' },
   { id: 'sugar', name: '설탕', category: 'seasoning', isEssential: true, emoji: '🧂' },
-  { id: 'sesame_oil', name: '참기름', category: 'seasoning', isEssential: true, emoji: '🧴' },
+  { id: 'sesame_oil', name: '참기름', category: 'seasoning', isEssential: true, emoji: '🍾' },
   { id: 'salt', name: '소금', category: 'seasoning', isEssential: true, emoji: '🧂' },
   { id: 'pepper', name: '후추', category: 'seasoning', isEssential: true, emoji: '🧂' },
   { id: 'gochugaru', name: '고춧가루', category: 'seasoning', isEssential: true, emoji: '🌶️' },
@@ -58,8 +58,8 @@ export const INGREDIENTS: Ingredient[] = [
   { id: 'rice_cake', name: '떡', category: 'grain', isPopular: true, emoji: '🍡' },
 
   // Dairy
-  { id: 'cheese', name: '치즈', category: 'dairy' },
-  { id: 'milk', name: '우유', category: 'dairy' },
+  { id: 'cheese', name: '치즈', category: 'dairy', emoji: '🧀' },
+  { id: 'milk', name: '우유', category: 'dairy', emoji: '🥛' },
 ];
 
 import EXTERNAL_DATA from './data/external_recipes.json';
