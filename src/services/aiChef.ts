@@ -153,7 +153,7 @@ export async function generateRecipe(ingredients: string[]): Promise<Recipe | nu
         const response = await result.response;
         const text = response.text();
 
-        console.log("AI Raw Response:", text);
+
 
         // Clean up markdown code blocks if present
         const cleanText = text.replace(/```json/g, '').replace(/```/g, '').trim();
